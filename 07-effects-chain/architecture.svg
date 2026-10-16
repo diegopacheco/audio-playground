@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&amp;display=swap');
+      text { font-family: 'Caveat', 'Comic Sans MS', cursive; fill: #2b2b2b; }
+      .t { font-size: 26px; font-weight: 700; }
+      .s { font-size: 19px; }
+      .box { stroke: #2b2b2b; stroke-width: 2.2; filter: url(#wobble); }
+      .arrow { stroke: #2b2b2b; stroke-width: 2.2; fill: none; filter: url(#wobble); marker-end: url(#head); }
+    </style>
+    <filter id="wobble" filterUnits="userSpaceOnUse" x="0" y="0" width="1000" height="560">
+      <feTurbulence type="fractalNoise" baseFrequency="0.02" numOctaves="2" seed="7" />
+      <feDisplacementMap in="SourceGraphic" scale="3.5" />
+    </filter>
+    <marker id="head" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto">
+      <path d="M0,0 L10,5 L0,10" fill="none" stroke="#2b2b2b" stroke-width="1.6" />
+    </marker>
+  </defs>
+  <rect width="1000" height="560" fill="#fffdf8" />
+
+  <text x="500" y="40" class="t" text-anchor="middle">Effects Chain</text>
+
+  <rect x="30" y="80" width="250" height="190" rx="14" fill="#dbe9ff" class="box" />
+  <text x="155" y="112" class="t" text-anchor="middle">Browser (React)</text>
+  <text x="155" y="145" class="s" text-anchor="middle">upload WAV / built-in clip</text>
+  <text x="155" y="172" class="s" text-anchor="middle">effect cards + sliders</text>
+  <text x="155" y="199" class="s" text-anchor="middle">reorder / remove</text>
+  <text x="155" y="226" class="s" text-anchor="middle">A/B play, waveforms</text>
+
+  <rect x="370" y="80" width="250" height="190" rx="14" fill="#e3f6df" class="box" />
+  <text x="495" y="112" class="t" text-anchor="middle">Axum API (Rust)</text>
+  <text x="495" y="145" class="s" text-anchor="middle">GET /api/effects</text>
+  <text x="495" y="172" class="s" text-anchor="middle">GET /api/source</text>
+  <text x="495" y="199" class="s" text-anchor="middle">POST /api/process</text>
+  <text x="495" y="226" class="s" text-anchor="middle">base64 decode</text>
+
+  <rect x="710" y="80" width="260" height="190" rx="14" fill="#fff1c9" class="box" />
+  <text x="840" y="112" class="t" text-anchor="middle">WAV + Source</text>
+  <text x="840" y="145" class="s" text-anchor="middle">hand-written RIFF reader</text>
+  <text x="840" y="172" class="s" text-anchor="middle">8/16/24/32 bit, float, mono mix</text>
+  <text x="840" y="199" class="s" text-anchor="middle">16-bit mono writer</text>
+  <text x="840" y="226" class="s" text-anchor="middle">Karplus-Strong plucks</text>
+
+  <path d="M282,150 L366,150" class="arrow" />
+  <text x="324" y="138" class="s" text-anchor="middle">JSON</text>
+  <path d="M368,205 L284,205" class="arrow" />
+  <text x="326" y="228" class="s" text-anchor="middle">audio/wav</text>
+  <path d="M622,175 L706,175" class="arrow" />
+
+  <rect x="30" y="330" width="940" height="200" rx="16" fill="#f7e3f3" class="box" />
+  <text x="500" y="362" class="t" text-anchor="middle">Chain: Vec&lt;Box&lt;dyn Effect&gt;&gt;  (process(sample) in order, then render the tail)</text>
+
+  <rect x="55" y="395" width="150" height="100" rx="12" fill="#ffffff" class="box" />
+  <text x="130" y="430" class="t" text-anchor="middle">Delay</text>
+  <text x="130" y="460" class="s" text-anchor="middle">ring buffer N</text>
+
+  <rect x="240" y="395" width="150" height="100" rx="12" fill="#ffffff" class="box" />
+  <text x="315" y="430" class="t" text-anchor="middle">Echo</text>
+  <text x="315" y="460" class="s" text-anchor="middle">delay + feedback</text>
+
+  <rect x="425" y="395" width="150" height="100" rx="12" fill="#ffffff" class="box" />
+  <text x="500" y="430" class="t" text-anchor="middle">Reverb</text>
+  <text x="500" y="460" class="s" text-anchor="middle">4 combs + 2 allpass</text>
+
+  <rect x="610" y="395" width="150" height="100" rx="12" fill="#ffffff" class="box" />
+  <text x="685" y="430" class="t" text-anchor="middle">Distortion</text>
+  <text x="685" y="460" class="s" text-anchor="middle">tanh(drive x)</text>
+
+  <rect x="795" y="395" width="150" height="100" rx="12" fill="#ffffff" class="box" />
+  <text x="870" y="430" class="t" text-anchor="middle">Bitcrusher</text>
+  <text x="870" y="460" class="s" text-anchor="middle">bits + hold</text>
+
+  <path d="M207,445 L236,445" class="arrow" />
+  <path d="M392,445 L421,445" class="arrow" />
+  <path d="M577,445 L606,445" class="arrow" />
+  <path d="M762,445 L791,445" class="arrow" />
+
+  <path d="M495,272 L495,326" class="arrow" />
+  <text x="510" y="305" class="s">build chain from [{type, params}]</text>
+</svg>

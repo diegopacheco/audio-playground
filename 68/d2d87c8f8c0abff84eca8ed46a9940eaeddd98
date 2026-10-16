@@ -1,0 +1,100 @@
+14-speech-to-text-summary/backend/rust-toolchain.toml
+  s_840bfd09bfcfc6::t_c23d0178212d6e 1-2
+14-speech-to-text-summary/frontend/src/App.tsx
+  s_840bfd09bfcfc6::t_2206bbc543556f 1-77
+14-speech-to-text-summary/backend/src/convert.rs
+  s_840bfd09bfcfc6::t_bf44a481836a0a 1-68,70-111
+  s_840bfd09bfcfc6::t_30858a16919846 69
+14-speech-to-text-summary/frontend/src/components/HealthBadges.tsx
+  s_840bfd09bfcfc6::t_fbe19b50ad98e9 1-26
+14-speech-to-text-summary/frontend/src/components/TranscriptView.tsx
+  s_840bfd09bfcfc6::t_30ba7e0b695b24 1-34
+14-speech-to-text-summary/scripts/setup.sh
+  s_840bfd09bfcfc6::t_9cbc6b46d4e01d 1-39
+14-speech-to-text-summary/frontend/index.html
+  s_840bfd09bfcfc6::t_a8ee32bef8d697 1-12
+14-speech-to-text-summary/frontend/package.json
+  s_840bfd09bfcfc6::t_d8d2b85650f99c 1-24
+14-speech-to-text-summary/scripts/start-all.sh
+  s_840bfd09bfcfc6::t_bf8104efd81022 1-30
+14-speech-to-text-summary/backend/src/resample.rs
+  s_840bfd09bfcfc6::t_96a3d59cfd2222 1-124
+14-speech-to-text-summary/backend/src/wav.rs
+  s_840bfd09bfcfc6::t_633a81cd73f048 1-177
+14-speech-to-text-summary/frontend/src/audio/format.test.ts
+  s_840bfd09bfcfc6::t_e818c9dc4d0e30 1-42
+14-speech-to-text-summary/scripts/ports.env
+  s_840bfd09bfcfc6::t_5bbd40e03b2cfe 1-2
+14-speech-to-text-summary/frontend/src/main.tsx
+  s_840bfd09bfcfc6::t_a76036d83476e9 1-13
+14-speech-to-text-summary/backend/src/error.rs
+  s_840bfd09bfcfc6::t_15d2424d1723e0 1-39
+14-speech-to-text-summary/backend/src/summarizer.rs
+  s_840bfd09bfcfc6::t_38fea16d78485e 1-212
+  s_840bfd09bfcfc6::t_7914d28aa64799 213-214
+14-speech-to-text-summary/frontend/src/audio/format.ts
+  s_840bfd09bfcfc6::t_5a6186b2491735 1-23
+14-speech-to-text-summary/README.md
+  s_840bfd09bfcfc6::t_9f7cbb7a5720ed 1-130
+14-speech-to-text-summary/scripts/test-all.sh
+  s_840bfd09bfcfc6::t_838010201d3d3c 1-15
+14-speech-to-text-summary/frontend/tsconfig.json
+  s_840bfd09bfcfc6::t_0c38de0f4b072f 1-17
+14-speech-to-text-summary/backend/src/service.rs
+  s_840bfd09bfcfc6::t_ead4f73caa5680 1-73
+14-speech-to-text-summary/frontend/src/api.ts
+  s_840bfd09bfcfc6::t_07909e3afef4a3 1-29
+14-speech-to-text-summary/frontend/src/audio/recorder.ts
+  s_840bfd09bfcfc6::t_85b27232cc32fe 1-26
+14-speech-to-text-summary/.gitignore
+  s_840bfd09bfcfc6::t_2f03fd987570a5 1-6
+14-speech-to-text-summary/architecture.svg
+  s_840bfd09bfcfc6::t_e7718fc60f8d70 37-39
+  s_840bfd09bfcfc6::t_90fd6192983195 1-36,40-74
+14-speech-to-text-summary/frontend/src/styles.css
+  s_840bfd09bfcfc6::t_e94028f7f5b3f6 1-156
+14-speech-to-text-summary/frontend/src/components/AudioInput.tsx
+  s_840bfd09bfcfc6::t_1c98c102679a7b 1-55
+14-speech-to-text-summary/frontend/vite.config.ts
+  s_840bfd09bfcfc6::t_9f336d1080d45c 1-26
+14-speech-to-text-summary/backend/src/transcriber.rs
+  s_840bfd09bfcfc6::t_9f85174843260d 1-175
+14-speech-to-text-summary/backend/Cargo.toml
+  s_840bfd09bfcfc6::t_3c41fd3d3eccd9 1-13
+14-speech-to-text-summary/frontend/src/types.ts
+  s_840bfd09bfcfc6::t_045edd7a5e22be 1-28
+14-speech-to-text-summary/frontend/src/components/SummaryPanel.tsx
+  s_840bfd09bfcfc6::t_8ba74a9371359a 1-39
+14-speech-to-text-summary/backend/src/api.rs
+  s_840bfd09bfcfc6::t_406c1185fce2d2 1-117
+14-speech-to-text-summary/backend/src/main.rs
+  s_840bfd09bfcfc6::t_214d2d5a71dfae 1-31
+14-speech-to-text-summary/backend/Cargo.lock
+  s_840bfd09bfcfc6::t_8e9dd3fe1bc53a 1-1366
+14-speech-to-text-summary/frontend/bun.lock
+  s_840bfd09bfcfc6::t_a9477008f4a22d 1-168
+14-speech-to-text-summary/scripts/common.sh
+  s_840bfd09bfcfc6::t_1e19895bf9d664 1-119
+14-speech-to-text-summary/scripts/status.sh
+  s_840bfd09bfcfc6::t_75deaf809392cd 1-14
+14-speech-to-text-summary/scripts/stop-all.sh
+  s_840bfd09bfcfc6::t_f86cca69bd7d9e 1-17
+14-speech-to-text-summary/scripts/ui.sh
+  s_840bfd09bfcfc6::t_d5ad66f6bea5d9 1-12
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "68d2d87c8f8c0abff84eca8ed46a9940eaeddd98",
+  "prompts": {},
+  "sessions": {
+    "s_840bfd09bfcfc6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "55beed20-3794-44e0-bd93-90c5b1c0f858",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "diegopacheco <diego.pacheco.it@gmail.com>"
+    }
+  }
+}

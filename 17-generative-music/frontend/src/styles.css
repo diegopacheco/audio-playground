@@ -1,0 +1,136 @@
+:root {
+  font-family: "Inter", system-ui, -apple-system, sans-serif;
+  color: #1f2430;
+  background: #f5f7fa;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 24px 16px 48px;
+}
+
+h1 {
+  margin: 0 0 4px;
+  font-size: 26px;
+}
+
+h2 {
+  margin: 0 0 4px;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #59627a;
+}
+
+.muted {
+  color: #7a8399;
+  margin: 0;
+}
+
+.small {
+  font-size: 13px;
+  margin: 0 0 10px;
+}
+
+.panel {
+  background: #fff;
+  border: 1px solid #e3e7ee;
+  border-radius: 12px;
+  padding: 16px;
+  margin-top: 16px;
+  overflow-x: auto;
+}
+
+.controls {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.controls label {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #59627a;
+}
+
+.controls input,
+.controls select {
+  font: inherit;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 6px 8px;
+  border: 1px solid #d5dae3;
+  border-radius: 8px;
+  background: #fff;
+  color: #1f2430;
+}
+
+.transport {
+  display: flex;
+  gap: 8px;
+  margin-top: 16px;
+  flex-wrap: wrap;
+}
+
+.spacer {
+  flex: 1;
+}
+
+button {
+  font: inherit;
+  font-size: 14px;
+  padding: 8px 14px;
+  border-radius: 8px;
+  border: 1px solid #d5dae3;
+  background: #fff;
+  color: #1f2430;
+  cursor: pointer;
+}
+
+button:hover:not(:disabled) {
+  background: #f0f3f8;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+button.primary {
+  background: #2b7a4b;
+  border-color: #2b7a4b;
+  color: #fff;
+}
+
+button.primary:hover:not(:disabled) {
+  background: #246a40;
+}
+
+.error {
+  color: #b3261e;
+  margin: 12px 0 0;
+}
+
+.roll {
+  display: block;
+  border: 1px solid #e3e7ee;
+  border-radius: 8px;
+}
+
+@media (max-width: 700px) {
+  .controls {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}

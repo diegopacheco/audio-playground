@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" width="1000" height="620">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&amp;display=swap');
+      text { font-family: 'Caveat', 'Comic Sans MS', cursive; fill: #2b2b2b; }
+      .t { font-size: 26px; font-weight: 700; }
+      .s { font-size: 19px; }
+      .l { font-size: 17px; fill: #4a4a4a; }
+      .box { stroke: #2b2b2b; stroke-width: 2.2; filter: url(#wobble); }
+      .arrow { stroke: #2b2b2b; stroke-width: 2.2; fill: none; filter: url(#wobble); marker-end: url(#head); }
+    </style>
+    <filter id="wobble" filterUnits="userSpaceOnUse" x="0" y="0" width="1000" height="620">
+      <feTurbulence type="fractalNoise" baseFrequency="0.02" numOctaves="2" seed="11" />
+      <feDisplacementMap in="SourceGraphic" scale="3.5" />
+    </filter>
+    <marker id="head" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto">
+      <path d="M0,0 L10,5 L0,10" fill="none" stroke="#2b2b2b" stroke-width="1.6" />
+    </marker>
+  </defs>
+  <rect width="1000" height="620" fill="#fffdf8" />
+
+  <text x="500" y="42" class="t" text-anchor="middle">Generative Music</text>
+
+  <rect x="30" y="80" width="250" height="190" rx="14" fill="#dbe9ff" class="box" />
+  <text x="155" y="112" class="t" text-anchor="middle">Browser (React)</text>
+  <text x="155" y="145" class="s" text-anchor="middle">key / scale / progression</text>
+  <text x="155" y="172" class="s" text-anchor="middle">generator / seed / bpm / bars</text>
+  <text x="155" y="199" class="s" text-anchor="middle">piano-roll canvas</text>
+  <text x="155" y="226" class="s" text-anchor="middle">Web Audio scheduler</text>
+
+  <rect x="370" y="80" width="250" height="190" rx="14" fill="#e3f6df" class="box" />
+  <text x="495" y="112" class="t" text-anchor="middle">Axum API (Rust)</text>
+  <text x="495" y="145" class="s" text-anchor="middle">GET /api/options</text>
+  <text x="495" y="172" class="s" text-anchor="middle">POST /api/generate</text>
+  <text x="495" y="199" class="s" text-anchor="middle">POST /api/export/midi</text>
+  <text x="495" y="226" class="s" text-anchor="middle">POST /api/export/wav</text>
+
+  <rect x="710" y="80" width="260" height="190" rx="14" fill="#fff1c9" class="box" />
+  <text x="840" y="112" class="t" text-anchor="middle">compose()</text>
+  <text x="840" y="145" class="s" text-anchor="middle">validate bars / bpm</text>
+  <text x="840" y="172" class="s" text-anchor="middle">key + scale = Tonality</text>
+  <text x="840" y="199" class="s" text-anchor="middle">XorShift seeded PRNG</text>
+  <text x="840" y="226" class="s" text-anchor="middle">pick MelodyGenerator</text>
+
+  <rect x="710" y="350" width="260" height="190" rx="14" fill="#fde0e0" class="box" />
+  <text x="840" y="382" class="t" text-anchor="middle">Harmony</text>
+  <text x="840" y="415" class="s" text-anchor="middle">RomanHarmony parser</text>
+  <text x="840" y="442" class="s" text-anchor="middle">I V vi IV, ii, vii°</text>
+  <text x="840" y="469" class="s" text-anchor="middle">major minor dorian penta</text>
+  <text x="840" y="496" class="s" text-anchor="middle">one chord per bar</text>
+
+  <rect x="370" y="350" width="250" height="190" rx="14" fill="#ece3fb" class="box" />
+  <text x="495" y="382" class="t" text-anchor="middle">MelodyGenerator</text>
+  <text x="495" y="415" class="s" text-anchor="middle">MarkovMelody order 1 / 2</text>
+  <text x="495" y="442" class="s" text-anchor="middle">trained on seed tunes</text>
+  <text x="495" y="469" class="s" text-anchor="middle">RuleMelody: chord tones,</text>
+  <text x="495" y="496" class="s" text-anchor="middle">steps, leaps, cadence</text>
+
+  <rect x="30" y="350" width="250" height="190" rx="14" fill="#dff3f1" class="box" />
+  <text x="155" y="382" class="t" text-anchor="middle">Renderer</text>
+  <text x="155" y="415" class="s" text-anchor="middle">MidiRenderer: SMF type 1</text>
+  <text x="155" y="442" class="s" text-anchor="middle">VLQ, tempo, 3 tracks</text>
+  <text x="155" y="469" class="s" text-anchor="middle">WavRenderer: FM lead +</text>
+  <text x="155" y="496" class="s" text-anchor="middle">additive pad, 16-bit PCM</text>
+
+  <path d="M282,150 L366,150" class="arrow" />
+  <text x="324" y="138" class="l" text-anchor="middle">JSON</text>
+  <path d="M368,215 L284,215" class="arrow" />
+  <text x="326" y="240" class="l" text-anchor="middle">song</text>
+
+  <path d="M622,175 L706,175" class="arrow" />
+  <text x="664" y="163" class="l" text-anchor="middle">request</text>
+
+  <path d="M840,272 L840,346" class="arrow" />
+  <text x="852" y="315" class="l">progression</text>
+
+  <path d="M708,445 L624,445" class="arrow" />
+  <text x="666" y="433" class="l" text-anchor="middle">chords</text>
+
+  <path d="M368,445 L284,445" class="arrow" />
+  <text x="326" y="433" class="l" text-anchor="middle">notes</text>
+
+  <path d="M155,348 L155,274" class="arrow" />
+  <text x="167" y="315" class="l">.mid / .wav</text>
+
+  <text x="500" y="590" class="s" text-anchor="middle">same request + same seed = same song, so exports regenerate instead of storing state</text>
+</svg>

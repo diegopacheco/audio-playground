@@ -1,0 +1,143 @@
+13-voice-changer/backend/src/dsp/window.rs
+  s_840bfd09bfcfc6::t_f3d9034badca91 1-32
+13-voice-changer/backend/src/dsp/mod.rs
+  s_840bfd09bfcfc6::t_b9b1cdfa316fec 1-7
+13-voice-changer/frontend/src/components/OfflinePanel.tsx
+  s_840bfd09bfcfc6::t_2f522bcae33404 1-92
+13-voice-changer/backend/src/effects/queue.rs
+  s_840bfd09bfcfc6::t_bd39b09ea790c3 1-34
+13-voice-changer/frontend/src/audio/ringBuffer.ts
+  s_840bfd09bfcfc6::t_ed76289d11a0fc 1-80
+13-voice-changer/frontend/tsconfig.json
+  s_840bfd09bfcfc6::t_6e0eebf2e3c1db 1-17
+13-voice-changer/backend/src/dsp/resample.rs
+  s_840bfd09bfcfc6::t_d8712daeccbec9 1-61
+13-voice-changer/backend/src/effects/presets.rs
+  s_840bfd09bfcfc6::t_47a592d279b518 1-7,11-27,31-70
+  s_840bfd09bfcfc6::t_37141fdf11495e 8-10,28-30
+13-voice-changer/backend/src/effects/mod.rs
+  s_840bfd09bfcfc6::t_37141fdf11495e 134-139
+  s_840bfd09bfcfc6::t_eff9a8e252d839 1-133,140-142
+13-voice-changer/backend/src/dsp/resonator.rs
+  s_840bfd09bfcfc6::t_3cb8583cd8156e 1-57
+13-voice-changer/architecture.svg
+  s_840bfd09bfcfc6::t_ef5a641bc0d3f5 1-103
+13-voice-changer/scripts/ports.env
+  s_840bfd09bfcfc6::t_984b5281ac2b53 1-2
+13-voice-changer/frontend/src/components/LevelMeter.tsx
+  s_840bfd09bfcfc6::t_90f25d5f695ea3 1-22
+13-voice-changer/scripts/stop-all.sh
+  s_840bfd09bfcfc6::t_da69bc5a8df864 1-17
+13-voice-changer/frontend/index.html
+  s_840bfd09bfcfc6::t_47adc1ba05d15f 1-12
+13-voice-changer/backend/src/signal.rs
+  s_840bfd09bfcfc6::t_af90adf869ee80 1-96,101-109,114-125
+  s_840bfd09bfcfc6::t_37141fdf11495e 97-100,110-113
+13-voice-changer/README.md
+  s_840bfd09bfcfc6::t_2b05d2fda1dcf4 51,79
+  s_840bfd09bfcfc6::t_3d4f885027136e 1-50,52-78,80-166
+13-voice-changer/frontend/src/styles.css
+  s_840bfd09bfcfc6::t_5fe2a10e0c28ba 1-36,38-219
+  s_840bfd09bfcfc6::t_828b47aa45bd87 37
+13-voice-changer/backend/src/dsp/stft.rs
+  s_840bfd09bfcfc6::t_37141fdf11495e 107-113
+  s_840bfd09bfcfc6::t_914a883da65aa0 1-106,114-115
+13-voice-changer/frontend/src/audio/metrics.ts
+  s_840bfd09bfcfc6::t_ca544b8cd8839a 1-57
+13-voice-changer/scripts/test-all.sh
+  s_840bfd09bfcfc6::t_da69bc5a8df864 1-15
+13-voice-changer/frontend/src/audio/engine.ts
+  s_840bfd09bfcfc6::t_a46a4da28de821 1-37,39-127,129-152
+  s_840bfd09bfcfc6::t_a59a27fd5bc950 38,128
+13-voice-changer/backend/src/main.rs
+  s_840bfd09bfcfc6::t_7a8d3bb17ae81b 1-20
+13-voice-changer/backend/src/effects/pitch_shift.rs
+  s_840bfd09bfcfc6::t_ecb0d6d108edec 114
+  s_840bfd09bfcfc6::t_c468826d872a72 48
+  s_840bfd09bfcfc6::t_7c470c094fcda1 18-20,23-47,49-70,77-91,93,95
+  s_840bfd09bfcfc6::t_71399950a20413 1-17,21-22,71-76,92,94,96-113,115-234
+13-voice-changer/frontend/src/audio/ringBuffer.test.ts
+  s_840bfd09bfcfc6::t_3528d4a8111ad9 1-66
+13-voice-changer/scripts/setup.sh
+  s_840bfd09bfcfc6::t_da69bc5a8df864 1-13
+13-voice-changer/frontend/src/audio/metrics.test.ts
+  s_840bfd09bfcfc6::t_1fb9fe585c77e3 1-52
+13-voice-changer/frontend/src/types.ts
+  s_840bfd09bfcfc6::t_2467c8efef001c 1-49
+13-voice-changer/frontend/src/audio/worklet-env.d.ts
+  s_840bfd09bfcfc6::t_d17e90d067ca84 1-13
+13-voice-changer/scripts/ui.sh
+  s_840bfd09bfcfc6::t_da69bc5a8df864 1-12
+13-voice-changer/scripts/start-all.sh
+  s_840bfd09bfcfc6::t_da69bc5a8df864 1-29
+13-voice-changer/frontend/src/App.tsx
+  s_840bfd09bfcfc6::t_f0b23dcad87d08 1-115
+13-voice-changer/backend/src/effects/robot.rs
+  s_840bfd09bfcfc6::t_d8cff496f3a7bf 1-85,90-106
+  s_840bfd09bfcfc6::t_37141fdf11495e 86-89
+13-voice-changer/frontend/src/components/LatencyPanel.tsx
+  s_840bfd09bfcfc6::t_3d405279906617 1-31
+13-voice-changer/backend/src/wav.rs
+  s_840bfd09bfcfc6::t_37141fdf11495e 167-170
+  s_840bfd09bfcfc6::t_9caa7b05a8497a 1-166,171-172
+13-voice-changer/frontend/src/components/EffectControls.tsx
+  s_840bfd09bfcfc6::t_fe4bbd2a4c23e7 1-57
+13-voice-changer/frontend/package.json
+  s_840bfd09bfcfc6::t_689e8eff443ffe 1-24
+13-voice-changer/frontend/src/main.tsx
+  s_840bfd09bfcfc6::t_73b458113d89bb 1-15
+13-voice-changer/frontend/vite.config.ts
+  s_840bfd09bfcfc6::t_5826274fa2d5ab 1-31
+13-voice-changer/backend/Cargo.toml
+  s_840bfd09bfcfc6::t_b0a22629d86a38 1-12
+13-voice-changer/scripts/common.sh
+  s_840bfd09bfcfc6::t_da69bc5a8df864 1-119
+13-voice-changer/frontend/src/audio/capture.worklet.ts
+  s_840bfd09bfcfc6::t_cde415f3609a9e 1-25
+13-voice-changer/frontend/src/audio/constants.ts
+  s_840bfd09bfcfc6::t_00e63c90ab7be3 1-5
+13-voice-changer/scripts/status.sh
+  s_840bfd09bfcfc6::t_da69bc5a8df864 1-14
+13-voice-changer/backend/src/dsp/fft.rs
+  s_840bfd09bfcfc6::t_37141fdf11495e 133-136,145-150,154-158
+  s_840bfd09bfcfc6::t_3430cb42bce64b 1-132,137-144,151-153,159-176
+13-voice-changer/frontend/src/components/SourceControls.tsx
+  s_840bfd09bfcfc6::t_bd4a4d48642366 1-32
+13-voice-changer/backend/src/api.rs
+  s_840bfd09bfcfc6::t_37141fdf11495e 143-146
+  s_840bfd09bfcfc6::t_8367619bacb1c6 101,105-108
+  s_840bfd09bfcfc6::t_c503c5fde59e19 1-100,102-104,109-142,147-250
+13-voice-changer/frontend/src/api.ts
+  s_840bfd09bfcfc6::t_c9157664b853ec 1-48
+13-voice-changer/backend/src/error.rs
+  s_840bfd09bfcfc6::t_21dda3c348bb1d 1-46
+13-voice-changer/frontend/src/audio/playback.worklet.ts
+  s_840bfd09bfcfc6::t_d1020a43edee66 1-34
+13-voice-changer/backend/src/dsp/analysis.rs
+  s_840bfd09bfcfc6::t_932657fcc89bbc 1-17,22-51
+  s_840bfd09bfcfc6::t_37141fdf11495e 18-21
+13-voice-changer/backend/src/effects/whisper.rs
+  s_840bfd09bfcfc6::t_0b0978962c40c6 1-83
+13-voice-changer/backend/Cargo.lock
+  s_840bfd09bfcfc6::t_7838441b1932bc 1-760
+13-voice-changer/backend/rust-toolchain.toml
+  s_840bfd09bfcfc6::t_4fa636c2a1f800 1-2
+13-voice-changer/frontend/bun.lock
+  s_840bfd09bfcfc6::t_db29e1e1d2036a 1-168
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "d533c607f26d443606e9e6b94ad2baec22b7fc78",
+  "prompts": {},
+  "sessions": {
+    "s_840bfd09bfcfc6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "55beed20-3794-44e0-bd93-90c5b1c0f858",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "diegopacheco <diego.pacheco.it@gmail.com>"
+    }
+  }
+}

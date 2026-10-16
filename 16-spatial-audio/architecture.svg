@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&amp;display=swap');
+      text { font-family: 'Caveat', 'Comic Sans MS', cursive; fill: #2b2b2b; }
+      .t { font-size: 25px; font-weight: 700; }
+      .s { font-size: 18px; }
+      .box { stroke: #2b2b2b; stroke-width: 2.2; filter: url(#wobble); }
+      .arrow { stroke: #2b2b2b; stroke-width: 2.2; fill: none; filter: url(#wobble); marker-end: url(#head); }
+    </style>
+    <filter id="wobble" filterUnits="userSpaceOnUse" x="0" y="0" width="1000" height="560">
+      <feTurbulence type="fractalNoise" baseFrequency="0.02" numOctaves="2" seed="7" />
+      <feDisplacementMap in="SourceGraphic" scale="3.5" />
+    </filter>
+    <marker id="head" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto">
+      <path d="M0,0 L10,5 L0,10" fill="none" stroke="#2b2b2b" stroke-width="1.6" />
+    </marker>
+  </defs>
+  <rect width="1000" height="560" fill="#fffdf8" />
+
+  <text x="500" y="40" class="t" text-anchor="middle">Spatial Audio</text>
+
+  <rect x="30" y="70" width="280" height="200" rx="14" fill="#dbe9ff" class="box" />
+  <text x="170" y="100" class="t" text-anchor="middle">Browser (React)</text>
+  <text x="170" y="132" class="s" text-anchor="middle">top-down head canvas, drag source</text>
+  <text x="170" y="157" class="s" text-anchor="middle">live: Web Audio PannerNode HRTF</text>
+  <text x="170" y="182" class="s" text-anchor="middle">ITD / ILD readouts</text>
+  <text x="170" y="207" class="s" text-anchor="middle">render buttons + playback</text>
+  <text x="170" y="232" class="s" text-anchor="middle">marker follows /api/path</text>
+
+  <rect x="370" y="70" width="260" height="200" rx="14" fill="#e3f5e1" class="box" />
+  <text x="500" y="100" class="t" text-anchor="middle">axum API</text>
+  <text x="500" y="132" class="s" text-anchor="middle">POST /api/render</text>
+  <text x="500" y="157" class="s" text-anchor="middle">POST /api/path</text>
+  <text x="500" y="182" class="s" text-anchor="middle">GET /api/itd</text>
+  <text x="500" y="207" class="s" text-anchor="middle">GET /api/trajectories</text>
+  <text x="500" y="237" class="s" text-anchor="middle">cues: Woodworth + shadow</text>
+
+  <rect x="690" y="70" width="280" height="90" rx="14" fill="#fde2e4" class="box" />
+  <text x="830" y="100" class="t" text-anchor="middle">Source (mono)</text>
+  <text x="830" y="130" class="s" text-anchor="middle">noise, tone, clicks, voice-like</text>
+
+  <rect x="690" y="180" width="280" height="90" rx="14" fill="#fff1c9" class="box" />
+  <text x="830" y="210" class="t" text-anchor="middle">Trajectory</text>
+  <text x="830" y="240" class="s" text-anchor="middle">circle, figure8, static, flyby</text>
+
+  <rect x="750" y="340" width="220" height="130" rx="14" fill="#ece4ff" class="box" />
+  <text x="860" y="370" class="t" text-anchor="middle">Fractional delay</text>
+  <text x="860" y="400" class="s" text-anchor="middle">distance/c = Doppler</text>
+  <text x="860" y="425" class="s" text-anchor="middle">+ ITD tap per ear</text>
+  <text x="860" y="450" class="s" text-anchor="middle">1/r gain</text>
+
+  <rect x="510" y="340" width="210" height="130" rx="14" fill="#ece4ff" class="box" />
+  <text x="615" y="370" class="t" text-anchor="middle">Head shadow</text>
+  <text x="615" y="400" class="s" text-anchor="middle">first-order shelf</text>
+  <text x="615" y="425" class="s" text-anchor="middle">per ear = ILD</text>
+
+  <rect x="270" y="340" width="210" height="130" rx="14" fill="#e0f4f7" class="box" />
+  <text x="375" y="370" class="t" text-anchor="middle">Pinna stage</text>
+  <text x="375" y="400" class="s" text-anchor="middle">elevation notch</text>
+  <text x="375" y="425" class="s" text-anchor="middle">back spectral tilt</text>
+  <text x="375" y="450" class="s" text-anchor="middle">(HRTF only)</text>
+
+  <rect x="30" y="340" width="210" height="130" rx="14" fill="#dbe9ff" class="box" />
+  <text x="135" y="370" class="t" text-anchor="middle">WAV writer</text>
+  <text x="135" y="400" class="s" text-anchor="middle">stereo 16-bit PCM</text>
+  <text x="135" y="425" class="s" text-anchor="middle">hand-written RIFF</text>
+
+  <path d="M312,150 L366,150" class="arrow" />
+  <path d="M632,115 L686,115" class="arrow" />
+  <path d="M632,225 L686,225" class="arrow" />
+  <path d="M860,272 L860,336" class="arrow" />
+  <path d="M748,405 L724,405" class="arrow" />
+  <path d="M508,405 L484,405" class="arrow" />
+  <path d="M268,405 L244,405" class="arrow" />
+  <path d="M135,338 L135,274" class="arrow" />
+
+  <text x="145" y="310" class="s">audio/wav</text>
+  <text x="870" y="310" class="s">per sample</text>
+  <text x="500" y="515" class="s" text-anchor="middle">trait Spatializer: SimpleBinaural = delay + shadow, ParametricHrtf = delay + shadow + pinna</text>
+</svg>

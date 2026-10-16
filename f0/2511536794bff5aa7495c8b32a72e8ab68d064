@@ -1,0 +1,118 @@
+16-spatial-audio/frontend/tsconfig.json
+  s_840bfd09bfcfc6::t_2a700ae4f89eea 1-18
+16-spatial-audio/frontend/src/styles.css
+  s_840bfd09bfcfc6::t_8fe463a7984606 1-217
+16-spatial-audio/scripts/test-all.sh
+  s_840bfd09bfcfc6::t_f594f5df4186a4 1-15
+16-spatial-audio/frontend/src/audio/path.ts
+  s_840bfd09bfcfc6::t_4c199eb04eee6f 1-35
+16-spatial-audio/frontend/src/main.tsx
+  s_840bfd09bfcfc6::t_2a700ae4f89eea 1-13
+16-spatial-audio/scripts/ui.sh
+  s_840bfd09bfcfc6::t_f594f5df4186a4 1-12
+16-spatial-audio/backend/src/dsp/resonator.rs
+  s_840bfd09bfcfc6::t_e14e203a6a70c5 1-38
+16-spatial-audio/backend/src/spatial/hrtf.rs
+  s_840bfd09bfcfc6::t_194b78b2928364 1-121
+  s_840bfd09bfcfc6::t_0649633629e7de 122
+16-spatial-audio/frontend/package.json
+  s_840bfd09bfcfc6::t_2a700ae4f89eea 1-24
+16-spatial-audio/backend/src/source.rs
+  s_840bfd09bfcfc6::t_7f948a71372549 1-142
+16-spatial-audio/backend/src/trajectory.rs
+  s_840bfd09bfcfc6::t_d3f29799e4b718 1-254
+  s_840bfd09bfcfc6::t_06d7449ec34932 255-257
+16-spatial-audio/frontend/src/api.ts
+  s_840bfd09bfcfc6::t_c1a2047a6e8802 1-40
+16-spatial-audio/scripts/stop-all.sh
+  s_840bfd09bfcfc6::t_f594f5df4186a4 1-17
+16-spatial-audio/backend/src/dsp/notch.rs
+  s_840bfd09bfcfc6::t_7928ff74ce7f04 1-82
+16-spatial-audio/.gitignore
+  s_840bfd09bfcfc6::t_f594f5df4186a4 1-4
+16-spatial-audio/backend/src/dsp/delay.rs
+  s_840bfd09bfcfc6::t_d82f949da0c087 1-53
+16-spatial-audio/scripts/ports.env
+  s_840bfd09bfcfc6::t_f630824026cd76 1-2
+16-spatial-audio/frontend/src/audio/engine.ts
+  s_840bfd09bfcfc6::t_e5bb7f83ffb30c 1-108
+16-spatial-audio/backend/src/dsp/shelf.rs
+  s_840bfd09bfcfc6::t_4cd374ee75ff4e 1-76
+16-spatial-audio/backend/src/error.rs
+  s_840bfd09bfcfc6::t_a1ba773a673e28 1-26
+16-spatial-audio/frontend/src/audio/path.test.ts
+  s_840bfd09bfcfc6::t_2f25067a86f82d 1-27
+16-spatial-audio/backend/Cargo.toml
+  s_840bfd09bfcfc6::t_975b118deb3974 1-10
+16-spatial-audio/frontend/src/types.ts
+  s_840bfd09bfcfc6::t_d79e9853f0ac4c 1-53
+16-spatial-audio/frontend/index.html
+  s_840bfd09bfcfc6::t_2a700ae4f89eea 1-12
+16-spatial-audio/frontend/src/components/Readouts.tsx
+  s_840bfd09bfcfc6::t_cd58b707bf419c 1-36
+16-spatial-audio/backend/src/wav.rs
+  s_840bfd09bfcfc6::t_28bb9627d37922 1-87
+16-spatial-audio/scripts/common.sh
+  s_840bfd09bfcfc6::t_f594f5df4186a4 1-122
+16-spatial-audio/backend/src/spatial/mod.rs
+  s_840bfd09bfcfc6::t_f5dab6dce23529 1-37,41-70
+  s_840bfd09bfcfc6::t_2a9e3d9bd5758f 38-40
+16-spatial-audio/frontend/src/App.tsx
+  s_840bfd09bfcfc6::t_f88e22070472fc 1-215
+16-spatial-audio/backend/src/spatial/binaural.rs
+  s_840bfd09bfcfc6::t_e250d6d39fec86 1-113
+16-spatial-audio/frontend/src/components/HeadView.tsx
+  s_840bfd09bfcfc6::t_f73ef7e8985b76 1-149
+16-spatial-audio/frontend/src/audio/geometry.test.ts
+  s_840bfd09bfcfc6::t_a5155394d2f1ff 1-47
+16-spatial-audio/scripts/start-all.sh
+  s_840bfd09bfcfc6::t_f594f5df4186a4 1-23
+16-spatial-audio/frontend/src/audio/geometry.ts
+  s_840bfd09bfcfc6::t_e9c26181a1a63d 1-47
+16-spatial-audio/backend/src/api.rs
+  s_840bfd09bfcfc6::t_303f83c688ce10 1-187
+16-spatial-audio/scripts/setup.sh
+  s_840bfd09bfcfc6::t_f594f5df4186a4 1-13
+16-spatial-audio/scripts/status.sh
+  s_840bfd09bfcfc6::t_f594f5df4186a4 1-14
+16-spatial-audio/backend/src/audio.rs
+  s_840bfd09bfcfc6::t_4b08e93c067ba2 1-18
+16-spatial-audio/architecture.svg
+  s_840bfd09bfcfc6::t_b693d147370b06 1-81
+16-spatial-audio/backend/src/dsp/mod.rs
+  s_840bfd09bfcfc6::t_4d4de26629007b 1-4
+16-spatial-audio/frontend/src/components/RenderPanel.tsx
+  s_840bfd09bfcfc6::t_e552219cf4d469 1-92
+16-spatial-audio/README.md
+  s_840bfd09bfcfc6::t_9de1463821de5f 1-165
+16-spatial-audio/backend/rust-toolchain.toml
+  s_840bfd09bfcfc6::t_d45476ba28fe91 1-3
+16-spatial-audio/backend/src/main.rs
+  s_840bfd09bfcfc6::t_e02d357241c2bd 1-25
+16-spatial-audio/frontend/vite.config.ts
+  s_840bfd09bfcfc6::t_2a700ae4f89eea 1-27
+16-spatial-audio/backend/src/spatial/cues.rs
+  s_840bfd09bfcfc6::t_841e9b2b5c0f73 1-111
+16-spatial-audio/backend/src/spatial/engine.rs
+  s_840bfd09bfcfc6::t_e33d0e3661f483 1-53
+16-spatial-audio/backend/Cargo.lock
+  s_840bfd09bfcfc6::t_5a3ecdaf5fc03d 1-488
+16-spatial-audio/frontend/bun.lock
+  s_840bfd09bfcfc6::t_1d75724e9814e4 1-270
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "f02511536794bff5aa7495c8b32a72e8ab68d064",
+  "prompts": {},
+  "sessions": {
+    "s_840bfd09bfcfc6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "55beed20-3794-44e0-bd93-90c5b1c0f858",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "diegopacheco <diego.pacheco.it@gmail.com>"
+    }
+  }
+}

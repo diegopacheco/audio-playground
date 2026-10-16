@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 600" width="1100" height="600">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&amp;display=swap');
+      text { font-family: 'Caveat', 'Comic Sans MS', cursive; fill: #1e1e1e; }
+      .title { font-size: 24px; font-weight: 700; }
+      .label { font-size: 20px; text-anchor: middle; }
+      .small { font-size: 17px; text-anchor: middle; fill: #495057; }
+      .note { font-size: 17px; fill: #495057; }
+      .box { stroke: #1e1e1e; stroke-width: 2; }
+      .frame { fill: none; stroke: #868e96; stroke-width: 2; stroke-dasharray: 8 6; }
+      .arrow { fill: none; stroke: #1e1e1e; stroke-width: 2; marker-end: url(#head); }
+    </style>
+    <filter id="wobble">
+      <feTurbulence type="fractalNoise" baseFrequency="0.02" numOctaves="2" seed="5" />
+      <feDisplacementMap in="SourceGraphic" scale="3" />
+    </filter>
+    <marker id="head" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10" fill="none" stroke="#1e1e1e" stroke-width="1.6" />
+    </marker>
+  </defs>
+  <rect width="1100" height="600" fill="#ffffff" />
+  <g filter="url(#wobble)">
+    <rect class="frame" x="20" y="50" width="420" height="530" rx="14" />
+    <rect class="frame" x="520" y="50" width="560" height="530" rx="14" />
+
+    <rect class="box" x="40" y="100" width="180" height="60" rx="10" fill="#a5d8ff" />
+    <rect class="box" x="240" y="100" width="180" height="60" rx="10" fill="#a5d8ff" />
+    <rect class="box" x="100" y="200" width="240" height="60" rx="10" fill="#ffec99" />
+    <rect class="box" x="100" y="300" width="240" height="60" rx="10" fill="#d0bfff" />
+    <rect class="box" x="100" y="400" width="240" height="60" rx="10" fill="#ffec99" />
+    <rect class="box" x="100" y="500" width="240" height="56" rx="10" fill="#b2f2bb" />
+
+    <rect class="box" x="540" y="100" width="330" height="60" rx="10" fill="#d0bfff" />
+    <rect class="box" x="890" y="100" width="170" height="60" rx="10" fill="#ffc9c9" />
+    <rect class="box" x="540" y="200" width="250" height="60" rx="10" fill="#a5d8ff" />
+    <rect class="box" x="810" y="200" width="250" height="60" rx="10" fill="#a5d8ff" />
+    <rect class="box" x="540" y="300" width="520" height="60" rx="10" fill="#ffec99" />
+    <rect class="box" x="540" y="400" width="165" height="70" rx="10" fill="#b2f2bb" />
+    <rect class="box" x="718" y="400" width="165" height="70" rx="10" fill="#b2f2bb" />
+    <rect class="box" x="895" y="400" width="165" height="70" rx="10" fill="#b2f2bb" />
+    <rect class="box" x="540" y="505" width="520" height="56" rx="10" fill="#ffc9c9" />
+
+    <path class="arrow" d="M 130 160 Q 140 182 180 198" />
+    <path class="arrow" d="M 330 160 Q 320 182 262 198" />
+    <path class="arrow" d="M 220 260 L 220 298" />
+    <path class="arrow" d="M 220 360 L 220 398" />
+    <path class="arrow" d="M 220 460 L 220 498" />
+    <path class="arrow" d="M 340 312 C 460 312 450 130 538 130" />
+    <path class="arrow" d="M 620 160 Q 630 182 660 198" />
+    <path class="arrow" d="M 800 160 Q 860 175 930 198" />
+    <path class="arrow" d="M 665 260 L 665 298" />
+    <path class="arrow" d="M 935 260 L 935 298" />
+    <path class="arrow" d="M 622 360 L 622 398" />
+    <path class="arrow" d="M 800 360 L 800 398" />
+    <path class="arrow" d="M 977 360 L 977 398" />
+    <path class="arrow" d="M 622 470 L 622 503" />
+    <path class="arrow" d="M 800 470 L 800 503" />
+    <path class="arrow" d="M 977 470 L 977 503" />
+    <path class="arrow" d="M 538 540 C 470 540 470 345 342 345" />
+  </g>
+
+  <text class="title" x="40" y="84">Browser: React + Web Audio</text>
+  <text class="title" x="540" y="84">Rust backend: axum + hand-written DSP</text>
+
+  <text class="label" x="130" y="128">Microphone</text>
+  <text class="small" x="130" y="149">getUserMedia</text>
+  <text class="label" x="330" y="128">Test voice loop</text>
+  <text class="small" x="330" y="149">from /api/test-signal</text>
+  <text class="label" x="220" y="227">Capture AudioWorklet</text>
+  <text class="small" x="220" y="248">1024-sample Float32 blocks</text>
+  <text class="label" x="220" y="327">WebSocket client</text>
+  <text class="small" x="220" y="348">input meter, round-trip timer</text>
+  <text class="label" x="220" y="427">Playback AudioWorklet</text>
+  <text class="small" x="220" y="448">jitter ring buffer, gapless</text>
+  <text class="label" x="220" y="525">Speakers</text>
+  <text class="small" x="220" y="545">output meter</text>
+
+  <text class="note" x="448" y="205">blocks</text>
+  <text class="note" x="448" y="470">processed</text>
+
+  <text class="label" x="705" y="127">axum router</text>
+  <text class="small" x="705" y="149">/api/voice  /api/process  /api/effects</text>
+  <text class="label" x="975" y="127">Test signal</text>
+  <text class="small" x="975" y="149">glottal pulses + formants</text>
+  <text class="label" x="665" y="227">WS session state</text>
+  <text class="small" x="665" y="248">Box&lt;dyn VoiceEffect&gt; per socket</text>
+  <text class="label" x="935" y="227">POST /api/process</text>
+  <text class="small" x="935" y="248">WAV decode, render, encode</text>
+  <text class="label" x="800" y="327">StreamingStft</text>
+  <text class="small" x="800" y="348">Hann window, radix-2 FFT, overlap-add</text>
+  <text class="label" x="622" y="428">Phase vocoder</text>
+  <text class="small" x="622" y="449">stretch + resample</text>
+  <text class="small" x="622" y="466">pitch, chipmunk, deep</text>
+  <text class="label" x="800" y="428">Robot</text>
+  <text class="small" x="800" y="449">zero phase per frame</text>
+  <text class="small" x="800" y="466">fixed hop = fixed pitch</text>
+  <text class="label" x="977" y="428">Whisper</text>
+  <text class="small" x="977" y="449">random phase per bin</text>
+  <text class="small" x="977" y="466">keeps the envelope</text>
+  <text class="label" x="800" y="530">LatencyQueue</text>
+  <text class="small" x="800" y="550">fixed delay, block out length = block in length</text>
+</svg>

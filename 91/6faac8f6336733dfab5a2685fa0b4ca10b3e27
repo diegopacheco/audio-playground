@@ -1,0 +1,131 @@
+11-data-over-sound/frontend/vite.config.ts
+  s_840bfd09bfcfc6::t_1f59bafa6d518c 1-27
+11-data-over-sound/frontend/src/audio/spectrogram.ts
+  s_840bfd09bfcfc6::t_746e153a099b16 1-41
+11-data-over-sound/frontend/src/components/ReceivePanel.tsx
+  s_840bfd09bfcfc6::t_aa6575f259080d 1-59
+11-data-over-sound/frontend/src/components/DecodeLog.tsx
+  s_840bfd09bfcfc6::t_4fd9f76ef511f1 1-47
+11-data-over-sound/README.md
+  s_840bfd09bfcfc6::t_54d5ae41f109ae 1-134
+11-data-over-sound/frontend/src/components/SettingsBar.tsx
+  s_840bfd09bfcfc6::t_37ce01bc5451ae 1-49
+11-data-over-sound/backend/src/dsp/noise.rs
+  s_840bfd09bfcfc6::t_4077597653dbca 1-35
+11-data-over-sound/frontend/index.html
+  s_840bfd09bfcfc6::t_e02dafe63b36d8 1-12
+11-data-over-sound/backend/Cargo.toml
+  s_840bfd09bfcfc6::t_eeb4700768669e 1-11
+11-data-over-sound/frontend/src/App.tsx
+  s_840bfd09bfcfc6::t_d4069333fda55a 1-44
+11-data-over-sound/frontend/package.json
+  s_840bfd09bfcfc6::t_3beded1bfda78f 1-23
+11-data-over-sound/backend/src/modem/fsk.rs
+  s_840bfd09bfcfc6::t_a06a8cf8250dc2 1-142
+11-data-over-sound/backend/src/wav.rs
+  s_840bfd09bfcfc6::t_3e2029009b3dfa 126,132-135
+  s_840bfd09bfcfc6::t_791a79626b1c29 1-125,127-131,136-213
+11-data-over-sound/backend/src/dsp/goertzel.rs
+  s_840bfd09bfcfc6::t_c249c370f2e147 1-61
+11-data-over-sound/backend/src/modem/receiver.rs
+  s_840bfd09bfcfc6::t_ce6b65d873dcb1 1-159,163-204
+  s_840bfd09bfcfc6::t_34cc7333c855a5 160-162
+  s_840bfd09bfcfc6::t_0e4ec6505caa96 205-206
+11-data-over-sound/backend/src/crc.rs
+  s_840bfd09bfcfc6::t_4bc366c88a64bb 1-45
+11-data-over-sound/backend/src/api.rs
+  s_840bfd09bfcfc6::t_5cb536394019a7 1-159
+11-data-over-sound/frontend/src/components/Waveform.tsx
+  s_840bfd09bfcfc6::t_d3a25f3900b8c9 1-42
+11-data-over-sound/frontend/src/api.ts
+  s_840bfd09bfcfc6::t_92da5068a14773 1-40,42-55
+  s_840bfd09bfcfc6::t_e8838633164bd8 41
+11-data-over-sound/frontend/src/audio/wav.test.ts
+  s_840bfd09bfcfc6::t_5ba1bc7bef51cd 1-58
+11-data-over-sound/frontend/src/useReceiver.ts
+  s_840bfd09bfcfc6::t_918fbae0c75b28 1-81
+11-data-over-sound/frontend/src/styles.css
+  s_840bfd09bfcfc6::t_c13e8ea9517c4a 1-292
+11-data-over-sound/backend/src/dsp/mod.rs
+  s_840bfd09bfcfc6::t_60f0c691d1681b 1-3
+11-data-over-sound/backend/src/main.rs
+  s_840bfd09bfcfc6::t_a84d4512f21dfb 1-22
+11-data-over-sound/backend/src/error.rs
+  s_840bfd09bfcfc6::t_3cf0b09f39440e 1-47
+11-data-over-sound/architecture.svg
+  s_840bfd09bfcfc6::t_af6e257bcf2636 21-22,41-46,69,74-75,86,90
+  s_840bfd09bfcfc6::t_a8a084425299f2 1-20,23-40,47-68,70-73,76-85,87-89
+11-data-over-sound/frontend/src/components/SendPanel.tsx
+  s_840bfd09bfcfc6::t_b47884c8ec7d35 1-75
+11-data-over-sound/frontend/src/audio/noise.test.ts
+  s_840bfd09bfcfc6::t_c83ad9e5eb58dd 1-40
+11-data-over-sound/backend/src/modem/mod.rs
+  s_840bfd09bfcfc6::t_1dd8a3fbe7c5d3 1-37,39-43,47-162,173-283
+  s_840bfd09bfcfc6::t_f5c1f6670d2620 163-172
+  s_840bfd09bfcfc6::t_65056a29047d13 38,44-46
+11-data-over-sound/frontend/src/components/LoopbackControls.tsx
+  s_840bfd09bfcfc6::t_9f7631ad41bc4e 1-107
+11-data-over-sound/frontend/src/audio/mic.ts
+  s_840bfd09bfcfc6::t_ac6574ba28749a 1-30
+11-data-over-sound/frontend/src/main.tsx
+  s_840bfd09bfcfc6::t_1b45eb004b2ad7 1-13
+11-data-over-sound/frontend/src/components/SpectrogramView.tsx
+  s_840bfd09bfcfc6::t_c11e75768113d7 1-44
+11-data-over-sound/frontend/src/components/MicControls.tsx
+  s_840bfd09bfcfc6::t_f42c9643835bc1 1-56
+11-data-over-sound/frontend/src/audio/frame.test.ts
+  s_840bfd09bfcfc6::t_68b1656e97bd18 1-39
+11-data-over-sound/frontend/src/audio/frame.ts
+  s_840bfd09bfcfc6::t_c8843e0a065adf 1-32
+11-data-over-sound/frontend/src/audio/wav.ts
+  s_840bfd09bfcfc6::t_fe28a18d887002 1-46
+11-data-over-sound/backend/rust-toolchain.toml
+  s_840bfd09bfcfc6::t_38161d844c9349 1-2
+11-data-over-sound/backend/src/modem/framing.rs
+  s_840bfd09bfcfc6::t_e894b1fc2fe7c6 7
+  s_840bfd09bfcfc6::t_717debba8139cc 34,93,105,117,123
+  s_840bfd09bfcfc6::t_3e2029009b3dfa 76,80,109-111
+  s_840bfd09bfcfc6::t_a8f4dcf1349cf8 1-6,8-33,35-75,77-79,81-92,94-104,106-108,112-116,118-122,124-209
+11-data-over-sound/frontend/src/audio/noise.ts
+  s_840bfd09bfcfc6::t_9ed496e160ab79 1-44
+11-data-over-sound/frontend/src/types.ts
+  s_840bfd09bfcfc6::t_10c0b7c81cfa0a 1-67
+11-data-over-sound/frontend/tsconfig.json
+  s_840bfd09bfcfc6::t_72b830babe7bf7 1-18
+11-data-over-sound/backend/Cargo.lock
+  s_840bfd09bfcfc6::t_e4014cc4dc3835 1-739
+11-data-over-sound/frontend/bun.lock
+  s_840bfd09bfcfc6::t_f594a2407fbff8 1-270
+11-data-over-sound/scripts/common.sh
+  s_840bfd09bfcfc6::t_3ada6a5a0a8c9f 1-122
+11-data-over-sound/scripts/ports.env
+  s_840bfd09bfcfc6::t_40a79856fd2af0 1-2
+11-data-over-sound/scripts/setup.sh
+  s_840bfd09bfcfc6::t_4e57826c326e6f 1-13
+11-data-over-sound/scripts/start-all.sh
+  s_840bfd09bfcfc6::t_1d28286bbb13e3 1-25
+11-data-over-sound/scripts/status.sh
+  s_840bfd09bfcfc6::t_39a01b04ea79bd 1-14
+11-data-over-sound/scripts/stop-all.sh
+  s_840bfd09bfcfc6::t_3f0320d50be6fc 1-17
+11-data-over-sound/scripts/test-all.sh
+  s_840bfd09bfcfc6::t_c8ff2c18fe90b3 1-15
+11-data-over-sound/scripts/ui.sh
+  s_840bfd09bfcfc6::t_c44502e319925c 1-12
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "916faac8f6336733dfab5a2685fa0b4ca10b3e27",
+  "prompts": {},
+  "sessions": {
+    "s_840bfd09bfcfc6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "55beed20-3794-44e0-bd93-90c5b1c0f858",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "diegopacheco <diego.pacheco.it@gmail.com>"
+    }
+  }
+}

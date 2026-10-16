@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f6f7fb;
+  color: #1f2430;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 24px 16px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 26px;
+}
+
+header p {
+  margin: 4px 0 0;
+  color: #5b6475;
+}
+
+.controls,
+.readout,
+.panel {
+  background: #fff;
+  border: 1px solid #e3e6ee;
+  border-radius: 12px;
+  padding: 16px;
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: flex-end;
+}
+
+.controls label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 13px;
+  color: #5b6475;
+}
+
+.controls label.disabled {
+  opacity: 0.45;
+}
+
+select,
+button {
+  font: inherit;
+  padding: 6px 12px;
+  border: 1px solid #cfd4df;
+  border-radius: 8px;
+  background: #fff;
+  color: #1f2430;
+}
+
+button {
+  cursor: pointer;
+}
+
+button.primary {
+  background: #4f6bed;
+  border-color: #4f6bed;
+  color: #fff;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.buttons {
+  display: flex;
+  gap: 8px;
+  margin-left: auto;
+}
+
+input[type="range"] {
+  width: 200px;
+}
+
+.readout {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 12px;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+}
+
+.stat .label {
+  font-size: 12px;
+  color: #5b6475;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.stat .value {
+  font-size: 22px;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+.panel h2 {
+  margin: 0 0 10px;
+  font-size: 15px;
+}
+
+canvas {
+  width: 100%;
+  display: block;
+  border-radius: 8px;
+  background: #fbfbfd;
+}
+
+.spectrogram {
+  background: #fafafc;
+}
+
+.axis {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: #8a92a3;
+  margin-top: 6px;
+}
+
+.error {
+  background: #fdecec;
+  border: 1px solid #f3c0c0;
+  color: #9b2c2c;
+  border-radius: 10px;
+  padding: 10px 14px;
+}

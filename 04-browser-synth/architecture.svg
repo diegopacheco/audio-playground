@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&amp;display=swap');
+      text { font-family: 'Caveat', 'Comic Sans MS', cursive; fill: #2b2b2b; }
+      .title { font-size: 30px; font-weight: 700; }
+      .head { font-size: 24px; font-weight: 700; }
+      .body { font-size: 19px; }
+      .box { stroke: #2b2b2b; stroke-width: 2.2; filter: url(#wobble); }
+      .arrow { stroke: #2b2b2b; stroke-width: 2.2; fill: none; filter: url(#wobble); marker-end: url(#head); }
+      .label { font-size: 18px; fill: #555; }
+    </style>
+    <filter id="wobble" filterUnits="userSpaceOnUse" x="0" y="0" width="1000" height="560">
+      <feTurbulence type="fractalNoise" baseFrequency="0.02" numOctaves="2" seed="4" />
+      <feDisplacementMap in="SourceGraphic" scale="3" />
+    </filter>
+    <marker id="head" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2b2b2b" />
+    </marker>
+  </defs>
+  <rect width="1000" height="560" fill="#fffdf8" />
+  <text x="500" y="40" text-anchor="middle" class="title">Browser Synth architecture</text>
+
+  <rect x="30" y="80" width="200" height="120" rx="14" fill="#ffe8cc" class="box" />
+  <text x="130" y="115" text-anchor="middle" class="head">Input</text>
+  <text x="130" y="145" text-anchor="middle" class="body">QWERTY two octaves</text>
+  <text x="130" y="170" text-anchor="middle" class="body">on-screen piano keys</text>
+
+  <rect x="300" y="80" width="300" height="200" rx="14" fill="#d8f0ff" class="box" />
+  <text x="450" y="115" text-anchor="middle" class="head">Web Audio (browser)</text>
+  <text x="450" y="148" text-anchor="middle" class="body">Synth: voice per held key</text>
+  <text x="450" y="176" text-anchor="middle" class="body">Oscillator -&gt; Biquad lowpass</text>
+  <text x="450" y="204" text-anchor="middle" class="body">-&gt; ADSR GainNode -&gt; master</text>
+  <text x="450" y="232" text-anchor="middle" class="body">envelope.ts levelAt schedules</text>
+  <text x="450" y="258" text-anchor="middle" class="body">attack and release ramps</text>
+
+  <rect x="680" y="100" width="170" height="80" rx="14" fill="#e3f7d8" class="box" />
+  <text x="765" y="135" text-anchor="middle" class="head">Speakers</text>
+  <text x="765" y="162" text-anchor="middle" class="body">real-time sound</text>
+
+  <rect x="30" y="320" width="230" height="120" rx="14" fill="#f3e1ff" class="box" />
+  <text x="145" y="355" text-anchor="middle" class="head">React UI</text>
+  <text x="145" y="385" text-anchor="middle" class="body">controls, presets,</text>
+  <text x="145" y="410" text-anchor="middle" class="body">phrase recorder</text>
+
+  <rect x="400" y="330" width="560" height="190" rx="14" fill="#fff4b8" class="box" />
+  <text x="680" y="365" text-anchor="middle" class="head">Rust backend (axum)</text>
+  <text x="550" y="400" text-anchor="middle" class="body">/api/presets</text>
+  <text x="550" y="426" text-anchor="middle" class="body">in-memory store</text>
+  <text x="550" y="452" text-anchor="middle" class="body">validation -&gt; 400</text>
+  <text x="810" y="400" text-anchor="middle" class="body">/api/render</text>
+  <text x="810" y="426" text-anchor="middle" class="body">Oscillator + Filter + Envelope</text>
+  <text x="810" y="452" text-anchor="middle" class="body">traits, summed voices</text>
+  <text x="810" y="478" text-anchor="middle" class="body">hand-written WAV writer</text>
+  <line x1="680" y1="385" x2="680" y2="495" stroke="#2b2b2b" stroke-width="1.5" stroke-dasharray="6 5" />
+
+  <path d="M230,140 L296,140" class="arrow" />
+  <text x="263" y="128" text-anchor="middle" class="label">noteOn</text>
+  <path d="M600,140 L676,140" class="arrow" />
+  <path d="M130,200 L140,316" class="arrow" />
+  <text x="160" y="268" class="label">key events</text>
+  <path d="M260,350 Q330,300 360,282" class="arrow" />
+  <text x="250" y="300" class="label">preset</text>
+  <path d="M260,395 L396,410" class="arrow" />
+  <text x="300" y="392" class="label">JSON</text>
+  <path d="M396,470 Q320,480 262,425" class="arrow" />
+  <text x="290" y="490" class="label">audio/wav</text>
+</svg>

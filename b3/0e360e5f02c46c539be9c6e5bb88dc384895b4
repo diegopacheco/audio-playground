@@ -1,0 +1,114 @@
+17-generative-music/scripts/ui.sh
+  s_840bfd09bfcfc6::t_ec2557f349f373 1-12
+17-generative-music/scripts/test-all.sh
+  s_840bfd09bfcfc6::t_ec2557f349f373 1-15
+17-generative-music/frontend/src/audio/schedule.ts
+  s_840bfd09bfcfc6::t_38c1cad97d29b4 1-36
+17-generative-music/frontend/src/audio/schedule.test.ts
+  s_840bfd09bfcfc6::t_7a5ad445f6c283 1-40
+17-generative-music/scripts/stop-all.sh
+  s_840bfd09bfcfc6::t_ec2557f349f373 1-17
+17-generative-music/backend/rust-toolchain.toml
+  s_840bfd09bfcfc6::t_ec2557f349f373 1-3
+17-generative-music/backend/src/error.rs
+  s_840bfd09bfcfc6::t_319d6a57abe79f 1-32
+17-generative-music/frontend/src/seed.ts
+  s_840bfd09bfcfc6::t_0e7bfd4a065f70 1-3
+17-generative-music/frontend/package.json
+  s_840bfd09bfcfc6::t_443f7fa7dfb187 1-24
+17-generative-music/backend/src/api.rs
+  s_840bfd09bfcfc6::t_37141fdf11495e 46-52,73-77,79-82
+  s_840bfd09bfcfc6::t_74f4328d69557e 1-45,53-72,78,83-107
+17-generative-music/frontend/src/components/PianoRoll.tsx
+  s_840bfd09bfcfc6::t_f2c5cf830d03c6 1-81
+17-generative-music/frontend/src/audio/roll.test.ts
+  s_840bfd09bfcfc6::t_b2a349a639c8cd 1-47
+17-generative-music/architecture.svg
+  s_840bfd09bfcfc6::t_ad87888036917f 1-87
+17-generative-music/backend/src/render/midi.rs
+  s_840bfd09bfcfc6::t_3def13de28aa43 230-261,263,267,273-275,282-283
+  s_840bfd09bfcfc6::t_89c75f8258154d 1-16,20-127,135-139,147-179,183-204,209-229,262,264-266,288-289
+  s_840bfd09bfcfc6::t_37141fdf11495e 17-19,128-134,140-146,180-182,205-208,268-272,276-281,284-287
+17-generative-music/backend/Cargo.toml
+  s_840bfd09bfcfc6::t_c38f1c4e981bb8 1-10
+17-generative-music/scripts/ports.env
+  s_840bfd09bfcfc6::t_ec2557f349f373 1-2
+17-generative-music/frontend/src/audio/player.ts
+  s_840bfd09bfcfc6::t_9c9083ca51a874 1-49
+17-generative-music/backend/src/rng.rs
+  s_840bfd09bfcfc6::t_d3e95ac7261731 1-81
+17-generative-music/frontend/index.html
+  s_840bfd09bfcfc6::t_443f7fa7dfb187 1-12
+17-generative-music/backend/src/theory.rs
+  s_840bfd09bfcfc6::t_31511eec0fb9f1 1-150
+17-generative-music/frontend/src/audio/roll.ts
+  s_840bfd09bfcfc6::t_7e19150bad7a47 1-32
+17-generative-music/frontend/src/api.ts
+  s_840bfd09bfcfc6::t_27e2f94bb62e6a 1-32
+17-generative-music/frontend/src/types.ts
+  s_840bfd09bfcfc6::t_09483ba1b44588 1-70
+17-generative-music/backend/src/compose.rs
+  s_840bfd09bfcfc6::t_37141fdf11495e 41-45,49-51,53-56,59-61,67-69,72-74,152-156,174-179
+  s_840bfd09bfcfc6::t_5d4f9bf68aca06 1-40,46-48,52,57-58,62-66,70-71,75-151,157-173,180-217
+17-generative-music/backend/src/harmony.rs
+  s_840bfd09bfcfc6::t_37141fdf11495e 35-37,114-117,136-138
+  s_840bfd09bfcfc6::t_376a965b053a9d 1-34,38-113,118-135,139-151
+17-generative-music/backend/src/render/mod.rs
+  s_840bfd09bfcfc6::t_ffde919b09f304 1-10
+17-generative-music/scripts/setup.sh
+  s_840bfd09bfcfc6::t_ec2557f349f373 1-13
+17-generative-music/README.md
+  s_840bfd09bfcfc6::t_e87f7c69268ba1 1-151
+17-generative-music/scripts/start-all.sh
+  s_840bfd09bfcfc6::t_ec2557f349f373 1-23
+17-generative-music/backend/src/melody/mod.rs
+  s_840bfd09bfcfc6::t_b97203fd4425aa 1-152
+17-generative-music/backend/src/melody/rules.rs
+  s_840bfd09bfcfc6::t_b8c63436c33cbb 1-137
+17-generative-music/frontend/src/App.tsx
+  s_840bfd09bfcfc6::t_505450eb3b4d1e 1-132
+17-generative-music/scripts/status.sh
+  s_840bfd09bfcfc6::t_ec2557f349f373 1-14
+17-generative-music/backend/src/melody/markov.rs
+  s_840bfd09bfcfc6::t_37141fdf11495e 111-114
+  s_840bfd09bfcfc6::t_4e42f26270bb02 1-110,115-131
+17-generative-music/frontend/src/main.tsx
+  s_840bfd09bfcfc6::t_fa0a4fa679278c 1-13
+17-generative-music/frontend/vite.config.ts
+  s_840bfd09bfcfc6::t_ec2557f349f373 1-27
+17-generative-music/frontend/src/components/Transport.tsx
+  s_840bfd09bfcfc6::t_23dced27803c9e 1-41
+17-generative-music/frontend/tsconfig.json
+  s_840bfd09bfcfc6::t_ec2557f349f373 1-18
+17-generative-music/backend/src/main.rs
+  s_840bfd09bfcfc6::t_efbe2c17dfc5f6 1-25
+17-generative-music/scripts/common.sh
+  s_840bfd09bfcfc6::t_ec2557f349f373 1-122
+17-generative-music/backend/src/render/wav.rs
+  s_840bfd09bfcfc6::t_e62abdecc041c4 1-53,55-60,62-74,76-102,104-229,234-240
+  s_840bfd09bfcfc6::t_37141fdf11495e 54,61,75,103,230-233
+17-generative-music/frontend/src/components/Controls.tsx
+  s_840bfd09bfcfc6::t_958447d4fbec34 1-88
+17-generative-music/frontend/src/styles.css
+  s_840bfd09bfcfc6::t_5a9e0cbb5564d2 1-136
+17-generative-music/backend/Cargo.lock
+  s_840bfd09bfcfc6::t_ef6b78dfbc5846 1-488
+17-generative-music/frontend/bun.lock
+  s_840bfd09bfcfc6::t_b66634a470a70a 1-270
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "b30e360e5f02c46c539be9c6e5bb88dc384895b4",
+  "prompts": {},
+  "sessions": {
+    "s_840bfd09bfcfc6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "55beed20-3794-44e0-bd93-90c5b1c0f858",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "diegopacheco <diego.pacheco.it@gmail.com>"
+    }
+  }
+}

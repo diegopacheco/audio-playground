@@ -1,0 +1,133 @@
+04-browser-synth/backend/src/dsp/oscillator.rs
+  s_840bfd09bfcfc6::t_f9dd54d774243e 1-80,87-91
+  s_840bfd09bfcfc6::t_e6bdf9bd559290 81-86
+04-browser-synth/frontend/src/keyboard.ts
+  s_840bfd09bfcfc6::t_c89b16ee424c4b 1-28
+04-browser-synth/scripts/stop-all.sh
+  s_840bfd09bfcfc6::t_c6f48603539d3d 1-17
+04-browser-synth/frontend/src/audio/biquad.test.ts
+  s_840bfd09bfcfc6::t_3ac32c0b89ec62 1-23
+04-browser-synth/frontend/src/components/PhrasePanel.tsx
+  s_840bfd09bfcfc6::t_0be553a12e23d8 1-40
+04-browser-synth/frontend/src/api.ts
+  s_840bfd09bfcfc6::t_95931d9169a00f 1-38
+04-browser-synth/backend/src/preset.rs
+  s_840bfd09bfcfc6::t_0068c8ada7c669 1-69,114-131,136-140,145-149,166-169,178-181,190-191
+  s_840bfd09bfcfc6::t_e6bdf9bd559290 70-113,132-135,141-144,150-165,170-177,182-189
+04-browser-synth/frontend/src/audio/envelope.ts
+  s_840bfd09bfcfc6::t_52fbcbaee72fba 1-42
+04-browser-synth/frontend/src/audio/envelope.test.ts
+  s_840bfd09bfcfc6::t_47975da715a920 25-26
+  s_840bfd09bfcfc6::t_6f5660467e1c94 1-24,27-37
+04-browser-synth/frontend/src/styles.css
+  s_840bfd09bfcfc6::t_8f6a5d14725dc3 1-268
+04-browser-synth/frontend/src/components/PresetPanel.tsx
+  s_840bfd09bfcfc6::t_e6d846e8ff9133 1-42
+04-browser-synth/frontend/vite.config.ts
+  s_840bfd09bfcfc6::t_7216218b8f9cda 1-16
+04-browser-synth/frontend/src/audio/notes.test.ts
+  s_840bfd09bfcfc6::t_cc8915b911d689 1-24
+04-browser-synth/frontend/index.html
+  s_840bfd09bfcfc6::t_1be560090a29a6 1-12
+04-browser-synth/README.md
+  s_840bfd09bfcfc6::t_75da3164992500 1-128
+04-browser-synth/backend/src/render.rs
+  s_840bfd09bfcfc6::t_98ef32c3cbeff9 1-21,25-27,32-88,94-98,102-134
+  s_840bfd09bfcfc6::t_1f3abe2d2beada 101
+  s_840bfd09bfcfc6::t_e6bdf9bd559290 22-24,28-31,89-93
+  s_840bfd09bfcfc6::t_dcfffdd7b8764b 99-100
+04-browser-synth/frontend/src/audio/synth.ts
+  s_840bfd09bfcfc6::t_7bfd5767f7c90c 1-43
+04-browser-synth/frontend/package.json
+  s_840bfd09bfcfc6::t_638a18831a44d4 1-24
+04-browser-synth/scripts/ports.env
+  s_840bfd09bfcfc6::t_765c7d1ff38aa4 1-2
+04-browser-synth/backend/src/dsp/mod.rs
+  s_840bfd09bfcfc6::t_edc2e3f55786e2 1-17,21-25
+  s_840bfd09bfcfc6::t_e6bdf9bd559290 18-20
+04-browser-synth/frontend/src/types.ts
+  s_840bfd09bfcfc6::t_6938a1308ff303 1-41
+04-browser-synth/frontend/src/components/FilterCurve.tsx
+  s_840bfd09bfcfc6::t_23d135a1c35bc4 1-30
+04-browser-synth/frontend/src/main.tsx
+  s_840bfd09bfcfc6::t_2474f22c2d85ed 1-13
+04-browser-synth/backend/src/wav.rs
+  s_840bfd09bfcfc6::t_e6bdf9bd559290 35-38
+  s_840bfd09bfcfc6::t_74fed79a872777 1-34,39-49
+04-browser-synth/frontend/src/keyboard.test.ts
+  s_840bfd09bfcfc6::t_24e709c8eb3c19 1-31
+04-browser-synth/frontend/src/audio/notes.ts
+  s_840bfd09bfcfc6::t_04a096a96d8f4c 1-13
+04-browser-synth/frontend/src/components/Controls.tsx
+  s_840bfd09bfcfc6::t_1662c3c92238f5 1-82
+04-browser-synth/backend/src/api.rs
+  s_840bfd09bfcfc6::t_f8b3ce5974ff12 1-54,59
+  s_840bfd09bfcfc6::t_e6bdf9bd559290 55-58
+04-browser-synth/frontend/src/audio/voice.ts
+  s_840bfd09bfcfc6::t_045d1810f43e8c 1-31
+04-browser-synth/backend/src/dsp/note.rs
+  s_840bfd09bfcfc6::t_9038a572cb4695 1-24
+04-browser-synth/scripts/setup.sh
+  s_840bfd09bfcfc6::t_44028c9ceb2175 1-13
+04-browser-synth/backend/src/dsp/envelope.rs
+  s_840bfd09bfcfc6::t_361d12922c49c3 1-95
+04-browser-synth/scripts/test-all.sh
+  s_840bfd09bfcfc6::t_79c825c9d55218 1-13
+04-browser-synth/frontend/src/App.tsx
+  s_840bfd09bfcfc6::t_c703dd4c41c051 1-172
+04-browser-synth/frontend/src/audio/recorder.ts
+  s_840bfd09bfcfc6::t_c5a2d1bb92938e 1-32
+04-browser-synth/frontend/src/components/Piano.tsx
+  s_840bfd09bfcfc6::t_4921885e8aeefd 1-35
+04-browser-synth/backend/src/dsp/filter.rs
+  s_840bfd09bfcfc6::t_447fae9d7c0a16 1-106
+04-browser-synth/backend/rust-toolchain.toml
+  s_840bfd09bfcfc6::t_109952f4659ca6 1-2
+04-browser-synth/scripts/common.sh
+  s_840bfd09bfcfc6::t_3a900b36fd6383 29
+  s_840bfd09bfcfc6::t_e20663bd10e035 1-28,30-119
+04-browser-synth/architecture.svg
+  s_840bfd09bfcfc6::t_321ffa5ae38f98 13
+  s_840bfd09bfcfc6::t_12e1bf947f76b5 1-12,14-68
+04-browser-synth/scripts/start-all.sh
+  s_840bfd09bfcfc6::t_50d450d1f018eb 1-25
+04-browser-synth/backend/src/store.rs
+  s_840bfd09bfcfc6::t_19b7d410168bc8 1-17,22-30,35-42,47-94
+  s_840bfd09bfcfc6::t_e6bdf9bd559290 18-21,31-34,43-46
+04-browser-synth/frontend/src/audio/biquad.ts
+  s_840bfd09bfcfc6::t_5e392a19620318 1-28
+04-browser-synth/frontend/src/audio/recorder.test.ts
+  s_840bfd09bfcfc6::t_ec783b256c234b 1-24
+04-browser-synth/backend/src/error.rs
+  s_840bfd09bfcfc6::t_c533c576ae4688 1-49
+04-browser-synth/frontend/tsconfig.json
+  s_840bfd09bfcfc6::t_af14dcd66f42e4 1-18
+04-browser-synth/backend/Cargo.toml
+  s_840bfd09bfcfc6::t_30201a24686c80 1-12
+04-browser-synth/backend/src/main.rs
+  s_840bfd09bfcfc6::t_700dc755eeb59c 1-26
+04-browser-synth/backend/Cargo.lock
+  s_840bfd09bfcfc6::t_aab5104799a2e3 1-510
+04-browser-synth/frontend/bun.lock
+  s_840bfd09bfcfc6::t_95734dddc0d9a7 1-270
+04-browser-synth/scripts/status.sh
+  s_840bfd09bfcfc6::t_128b68382dec2e 1-14
+04-browser-synth/scripts/ui.sh
+  s_840bfd09bfcfc6::t_7a303702def406 1-12
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "b04a9e4df95ed5b1fee58a71ffd41f8dda79f7be",
+  "prompts": {},
+  "sessions": {
+    "s_840bfd09bfcfc6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "55beed20-3794-44e0-bd93-90c5b1c0f858",
+        "model": "unknown"
+      },
+      "human_author": "diegopacheco <diego.pacheco.it@gmail.com>"
+    }
+  }
+}

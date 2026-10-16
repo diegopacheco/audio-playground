@@ -1,0 +1,120 @@
+09-bpm-detection/frontend/src/main.tsx
+  s_840bfd09bfcfc6::t_d8445b358fa5d4 1-13
+09-bpm-detection/scripts/stop-all.sh
+  s_840bfd09bfcfc6::t_9dec74417ba251 1-17
+09-bpm-detection/scripts/status.sh
+  s_840bfd09bfcfc6::t_6503557cded604 1-16
+09-bpm-detection/backend/src/analysis.rs
+  s_840bfd09bfcfc6::t_adb9543395be4d 159-160
+  s_840bfd09bfcfc6::t_4cf4b3ac8a28bb 90-95
+  s_840bfd09bfcfc6::t_ab04bb4e15b8fe 1-66,68-73,75-89,96-158,161-216
+  s_840bfd09bfcfc6::t_f6206ba8a128e6 67,74
+09-bpm-detection/backend/src/dsp/resample.rs
+  s_840bfd09bfcfc6::t_a8d480513a9e9c 1-67
+09-bpm-detection/backend/src/dsp/beats.rs
+  s_840bfd09bfcfc6::t_4ff8444320a47d 34-35,37,39
+  s_840bfd09bfcfc6::t_a483144ab5181e 67
+  s_840bfd09bfcfc6::t_73ab3c8a69fb7e 1-33,36,38,40-66,68-89
+09-bpm-detection/frontend/package.json
+  s_840bfd09bfcfc6::t_e23bad845704b7 1-24
+09-bpm-detection/backend/src/api.rs
+  s_840bfd09bfcfc6::t_a9b21aa11ff699 1-71
+09-bpm-detection/backend/src/dsp/fft.rs
+  s_840bfd09bfcfc6::t_38787554fd8ea8 1-119
+09-bpm-detection/frontend/src/App.tsx
+  s_840bfd09bfcfc6::t_8a39f05547ff8a 1-79,81-91
+  s_840bfd09bfcfc6::t_70a69292718632 80
+09-bpm-detection/backend/rust-toolchain.toml
+  s_840bfd09bfcfc6::t_ca4d3c55c2b65a 1-2
+09-bpm-detection/backend/src/dsp/tempo.rs
+  s_840bfd09bfcfc6::t_b831b5886f41f3 23
+  s_840bfd09bfcfc6::t_25f288196d9303 1-22,24-184
+  s_840bfd09bfcfc6::t_a545bdd6145d68 185-187
+09-bpm-detection/backend/Cargo.toml
+  s_840bfd09bfcfc6::t_67de4311b327d1 1-10
+09-bpm-detection/frontend/src/api.ts
+  s_840bfd09bfcfc6::t_0bbe289cbb8693 1-26
+09-bpm-detection/frontend/src/components/Summary.tsx
+  s_840bfd09bfcfc6::t_4eb4828e23ce69 1-32
+09-bpm-detection/backend/src/error.rs
+  s_840bfd09bfcfc6::t_b2f06b706d27d4 1-24
+09-bpm-detection/backend/src/synth.rs
+  s_840bfd09bfcfc6::t_41fb8ac4b10fb1 1-42,45-47,49-125
+  s_840bfd09bfcfc6::t_c9caa1773044b1 43-44,48
+09-bpm-detection/frontend/src/audio/chart.ts
+  s_840bfd09bfcfc6::t_a78ad606aa1947 1-42
+09-bpm-detection/scripts/common.sh
+  s_840bfd09bfcfc6::t_b8942f71a5fd9f 29
+  s_840bfd09bfcfc6::t_e1d42bcb89d18e 1-28,30-119
+09-bpm-detection/frontend/src/types.ts
+  s_840bfd09bfcfc6::t_eb01fb173cd4f9 1-27
+09-bpm-detection/architecture.svg
+  s_840bfd09bfcfc6::t_8cbae8f1f90d54 1-85
+09-bpm-detection/frontend/src/audio/beats.ts
+  s_840bfd09bfcfc6::t_886a48c14344d1 1-30
+09-bpm-detection/frontend/src/components/LineChart.tsx
+  s_840bfd09bfcfc6::t_f93cac1b267efd 1-68
+09-bpm-detection/frontend/index.html
+  s_840bfd09bfcfc6::t_8ac0dbf2a63147 1-12
+09-bpm-detection/frontend/src/audio/beats.test.ts
+  s_840bfd09bfcfc6::t_8b0222dd8bf79f 1-33
+09-bpm-detection/frontend/src/components/Charts.tsx
+  s_840bfd09bfcfc6::t_89c77e83e75b81 1-13,15-19,21-57
+  s_840bfd09bfcfc6::t_decc7b6e5538ef 14
+  s_840bfd09bfcfc6::t_912631f143e785 20
+09-bpm-detection/frontend/vite.config.ts
+  s_840bfd09bfcfc6::t_f81017dda51ed5 1-16
+09-bpm-detection/scripts/setup.sh
+  s_840bfd09bfcfc6::t_94b3ca01d7f796 1-13
+09-bpm-detection/backend/src/dsp/mod.rs
+  s_840bfd09bfcfc6::t_aa92ff02777ca8 1-32
+09-bpm-detection/frontend/src/components/Controls.tsx
+  s_840bfd09bfcfc6::t_8578293f2cd544 1-74
+09-bpm-detection/frontend/src/styles.css
+  s_840bfd09bfcfc6::t_8b46e8f133b4d9 1-198
+09-bpm-detection/scripts/start-all.sh
+  s_840bfd09bfcfc6::t_646815db6e2fca 1-27
+09-bpm-detection/backend/src/dsp/onset.rs
+  s_840bfd09bfcfc6::t_bbde903d7d1081 1-65,67-69,75,77-109,118-188
+  s_840bfd09bfcfc6::t_0d1b3f666d914d 110-117
+  s_840bfd09bfcfc6::t_ec845fc7025647 66,70-74,76
+09-bpm-detection/frontend/src/audio/chart.test.ts
+  s_840bfd09bfcfc6::t_4e23242058fd37 1-33
+09-bpm-detection/frontend/src/components/Player.tsx
+  s_840bfd09bfcfc6::t_b499e7536228cb 1-58
+09-bpm-detection/backend/src/wav.rs
+  s_840bfd09bfcfc6::t_c483a3b17d7559 1-200
+  s_840bfd09bfcfc6::t_f1a81ae186e3c2 201-202
+09-bpm-detection/backend/src/main.rs
+  s_840bfd09bfcfc6::t_80880d9f8f9ef5 1-20
+09-bpm-detection/README.md
+  s_840bfd09bfcfc6::t_45094ffc29a29d 1-130
+09-bpm-detection/frontend/tsconfig.json
+  s_840bfd09bfcfc6::t_0927334b043339 1-18
+09-bpm-detection/scripts/test-all.sh
+  s_840bfd09bfcfc6::t_6e68547a05507f 1-15
+09-bpm-detection/backend/Cargo.lock
+  s_840bfd09bfcfc6::t_78a01eacfe6e97 1-488
+09-bpm-detection/frontend/bun.lock
+  s_840bfd09bfcfc6::t_715298f6564c38 1-128
+09-bpm-detection/scripts/ports.env
+  s_840bfd09bfcfc6::t_bdfd74f91476fe 1-2
+09-bpm-detection/scripts/ui.sh
+  s_840bfd09bfcfc6::t_3c12f07f98a8c0 1-12
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "f56e0b8b1ef29d7064ea6c1436fc212a46f8db64",
+  "prompts": {},
+  "sessions": {
+    "s_840bfd09bfcfc6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "55beed20-3794-44e0-bd93-90c5b1c0f858",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "diegopacheco <diego.pacheco.it@gmail.com>"
+    }
+  }
+}

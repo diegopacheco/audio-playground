@@ -1,0 +1,191 @@
+:root {
+  font-family: "Inter", system-ui, -apple-system, sans-serif;
+  color: #1f2937;
+  background: #f7f8fb;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 24px 16px 48px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+header p {
+  margin: 4px 0 20px;
+  color: #6b7280;
+}
+
+.tuner {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+
+.note-display .note {
+  font-size: 88px;
+  font-weight: 700;
+  line-height: 1;
+  color: #374151;
+  transition: color 0.2s;
+}
+
+.note-display .note-tuned {
+  color: #16a34a;
+}
+
+.octave {
+  font-size: 36px;
+  color: #9ca3af;
+  margin-left: 4px;
+}
+
+.readout {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  color: #6b7280;
+  margin-top: 6px;
+  font-variant-numeric: tabular-nums;
+}
+
+.gauge {
+  width: 100%;
+  max-width: 420px;
+}
+
+.gauge-arc {
+  fill: none;
+  stroke: #e5e7eb;
+  stroke-width: 10;
+  stroke-linecap: round;
+}
+
+.gauge-tick {
+  stroke: #9ca3af;
+  stroke-width: 2;
+}
+
+.gauge-label {
+  font-size: 10px;
+  fill: #6b7280;
+  text-anchor: middle;
+  dominant-baseline: middle;
+}
+
+.needle {
+  stroke: #ef4444;
+  stroke-width: 4;
+  stroke-linecap: round;
+  transition: all 0.12s linear;
+}
+
+.needle-tuned {
+  stroke: #16a34a;
+}
+
+.needle-hub {
+  fill: #374151;
+}
+
+.status {
+  color: #6b7280;
+  margin: 4px 0 0;
+}
+
+.error {
+  color: #b91c1c;
+}
+
+.panels {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+@media (max-width: 680px) {
+  .panels {
+    grid-template-columns: 1fr;
+  }
+}
+
+.panel {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  padding: 16px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.panel h2 {
+  margin: 0;
+  font-size: 16px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 13px;
+  color: #4b5563;
+}
+
+select,
+input[type="number"] {
+  padding: 6px 8px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 14px;
+  background: #ffffff;
+}
+
+.buttons,
+.tone-row {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.tone-row label {
+  flex: 1;
+}
+
+button {
+  padding: 8px 14px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  background: #ffffff;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button.active {
+  background: #2563eb;
+  border-color: #2563eb;
+  color: #ffffff;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.hint {
+  margin: 0;
+  font-size: 13px;
+  color: #6b7280;
+}

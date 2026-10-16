@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 450" width="1000" height="450">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&amp;display=swap');
+      text { font-family: 'Caveat', 'Comic Sans MS', cursive; fill: #1e1e1e; }
+      .title { font-size: 24px; font-weight: 700; }
+      .label { font-size: 20px; text-anchor: middle; }
+      .small { font-size: 17px; text-anchor: middle; }
+      .tiny { font-size: 16px; text-anchor: middle; fill: #495057; }
+      .box { stroke: #1e1e1e; stroke-width: 2; }
+      .frame { fill: none; stroke: #868e96; stroke-width: 2; stroke-dasharray: 8 6; }
+      .arrow { fill: none; stroke: #1e1e1e; stroke-width: 2; marker-end: url(#head); }
+    </style>
+    <filter id="wobble">
+      <feTurbulence type="fractalNoise" baseFrequency="0.02" numOctaves="2" seed="7" />
+      <feDisplacementMap in="SourceGraphic" scale="3" />
+    </filter>
+    <marker id="head" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10" fill="none" stroke="#1e1e1e" stroke-width="1.6" />
+    </marker>
+  </defs>
+  <rect width="1000" height="450" fill="#ffffff" />
+  <g filter="url(#wobble)">
+    <rect class="frame" x="20" y="40" width="400" height="390" rx="14" />
+    <rect class="frame" x="580" y="40" width="400" height="390" rx="14" />
+    <rect class="box" x="40" y="80" width="165" height="64" rx="10" fill="#a5d8ff" />
+    <rect class="box" x="235" y="80" width="165" height="64" rx="10" fill="#ffec99" />
+    <rect class="box" x="100" y="190" width="240" height="64" rx="10" fill="#b2f2bb" />
+    <rect class="box" x="100" y="330" width="240" height="64" rx="10" fill="#ffc9c9" />
+    <rect class="box" x="600" y="80" width="360" height="64" rx="10" fill="#d0bfff" />
+    <rect class="box" x="600" y="200" width="165" height="64" rx="10" fill="#a5d8ff" />
+    <rect class="box" x="795" y="200" width="165" height="64" rx="10" fill="#ffec99" />
+    <rect class="box" x="600" y="330" width="360" height="64" rx="10" fill="#b2f2bb" />
+    <path class="arrow" d="M 122 144 Q 135 170 180 190" />
+    <path class="arrow" d="M 318 144 Q 305 170 262 190" />
+    <path class="arrow" d="M 340 214 C 460 214 480 112 598 112" />
+    <path class="arrow" d="M 682 144 L 682 198" />
+    <path class="arrow" d="M 877 144 L 877 198" />
+    <path class="arrow" d="M 682 264 L 710 328" />
+    <path class="arrow" d="M 877 264 L 850 328" />
+    <path class="arrow" d="M 598 362 L 342 362" />
+  </g>
+  <text class="title" x="34" y="30">Browser (React + Web Audio)</text>
+  <text class="title" x="594" y="30">Rust backend (axum)</text>
+  <text class="label" x="122" y="108">Microphone</text>
+  <text class="small" x="122" y="130">getUserMedia</text>
+  <text class="label" x="318" y="108">Reference tone</text>
+  <text class="small" x="318" y="130">OscillatorNode</text>
+  <text class="label" x="220" y="218">AnalyserNode</text>
+  <text class="small" x="220" y="240">2048-sample frames every 50 ms</text>
+  <text class="label" x="220" y="358">Tuner UI</text>
+  <text class="small" x="220" y="380">note + cents needle gauge</text>
+  <text class="label" x="780" y="108">axum router</text>
+  <text class="small" x="780" y="130">ws /api/stream   POST /api/detect</text>
+  <text class="small" x="780" y="190">trait PitchDetector</text>
+  <text class="label" x="682" y="228">YIN</text>
+  <text class="small" x="682" y="250">CMND + threshold</text>
+  <text class="label" x="877" y="228">Autocorrelation</text>
+  <text class="small" x="877" y="250">normalized ACF peak</text>
+  <text class="label" x="780" y="358">Note mapper</text>
+  <text class="small" x="780" y="380">frequency to note, octave, cents (A4)</text>
+  <text class="tiny" x="500" y="236">PCM frame (JSON)</text>
+  <text class="tiny" x="500" y="256">samples, sampleRate,</text>
+  <text class="tiny" x="500" y="276">detector, a4</text>
+  <text class="tiny" x="500" y="390">frequency, note,</text>
+  <text class="tiny" x="500" y="408">octave, cents,</text>
+  <text class="tiny" x="500" y="426">clarity, detector</text>
+</svg>

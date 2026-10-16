@@ -1,0 +1,134 @@
+12-audio-fingerprinting/frontend/src/audio/pcm.ts
+  s_840bfd09bfcfc6::t_3889f8c4524659 1-23
+12-audio-fingerprinting/scripts/start-all.sh
+  s_840bfd09bfcfc6::t_dd82e5e70515a5 1-30
+12-audio-fingerprinting/backend/src/fingerprint/index.rs
+  s_840bfd09bfcfc6::t_f3e4ec8dd60e7e 1-46
+  s_840bfd09bfcfc6::t_7e816a25b8c30d 47-49
+12-audio-fingerprinting/scripts/common.sh
+  s_840bfd09bfcfc6::t_dd82e5e70515a5 1-119
+12-audio-fingerprinting/backend/src/dsp/synth.rs
+  s_840bfd09bfcfc6::t_f0830e3acb1f76 207
+  s_840bfd09bfcfc6::t_3ae19be8c69196 1-79,81-206,208-212,220-257
+  s_840bfd09bfcfc6::t_de65004ab23072 80,213-219
+12-audio-fingerprinting/backend/rust-toolchain.toml
+  s_840bfd09bfcfc6::t_dd82e5e70515a5 1-2
+12-audio-fingerprinting/frontend/src/audio/pcm.test.ts
+  s_840bfd09bfcfc6::t_789f0439e757ae 1-39
+12-audio-fingerprinting/backend/src/dsp/mod.rs
+  s_840bfd09bfcfc6::t_d1b8bb958f3ef6 1-4
+12-audio-fingerprinting/frontend/src/components/HistogramCanvas.tsx
+  s_840bfd09bfcfc6::t_fcc8463acfeb4d 1-52
+12-audio-fingerprinting/backend/src/dsp/resample.rs
+  s_840bfd09bfcfc6::t_600baaca45e605 1-108
+  s_840bfd09bfcfc6::t_4faaafea6de438 109-110
+12-audio-fingerprinting/architecture.svg
+  s_840bfd09bfcfc6::t_b1b260376cc7ac 2-21,23-91,93
+  s_840bfd09bfcfc6::t_2c3db4cc5b05c0 1,22,92
+12-audio-fingerprinting/frontend/src/components/LibraryPanel.tsx
+  s_840bfd09bfcfc6::t_b6eb09f591b7d0 1-54
+12-audio-fingerprinting/frontend/tsconfig.json
+  s_840bfd09bfcfc6::t_f634af2ab80d58 1-17
+12-audio-fingerprinting/backend/src/api.rs
+  s_840bfd09bfcfc6::t_89cb60511dcf5d 1-156
+  s_840bfd09bfcfc6::t_690ceb7137d883 157-159
+12-audio-fingerprinting/frontend/index.html
+  s_840bfd09bfcfc6::t_f634af2ab80d58 1-12
+12-audio-fingerprinting/frontend/src/types.ts
+  s_840bfd09bfcfc6::t_3962d88ce37ae8 1-57
+12-audio-fingerprinting/frontend/src/main.tsx
+  s_840bfd09bfcfc6::t_f634af2ab80d58 1-15
+12-audio-fingerprinting/backend/src/error.rs
+  s_840bfd09bfcfc6::t_15285d8058f4a5 1-38
+12-audio-fingerprinting/backend/src/dsp/fft.rs
+  s_840bfd09bfcfc6::t_ae8cecb4e1b32a 1-116
+12-audio-fingerprinting/frontend/src/App.tsx
+  s_840bfd09bfcfc6::t_0d026615642408 1-116
+12-audio-fingerprinting/scripts/ui.sh
+  s_840bfd09bfcfc6::t_dd82e5e70515a5 1-12
+12-audio-fingerprinting/frontend/src/components/ConstellationCanvas.tsx
+  s_840bfd09bfcfc6::t_aebc51c81ef720 1-52
+12-audio-fingerprinting/backend/src/library.rs
+  s_840bfd09bfcfc6::t_aa1bcbebce074c 356
+  s_840bfd09bfcfc6::t_07e55f55c4ab0a 117-119,126-128,265-268,286,288-291,301,347
+  s_840bfd09bfcfc6::t_74770650bf63b0 1-116,120-125,129-264,269-285,287,292-300,302-346,348-355,357-381
+12-audio-fingerprinting/backend/Cargo.toml
+  s_840bfd09bfcfc6::t_d8898e9db7c826 1-18
+12-audio-fingerprinting/scripts/stop-all.sh
+  s_840bfd09bfcfc6::t_dd82e5e70515a5 1-17
+12-audio-fingerprinting/backend/src/fingerprint/peaks.rs
+  s_840bfd09bfcfc6::t_de65004ab23072 17-18,22-27,50-54,65,97-98,124-128
+  s_840bfd09bfcfc6::t_932d59bff00ab9 1-16,19-21,28-49,55-64,66-96,99-123,129-130
+12-audio-fingerprinting/frontend/src/audio/plot.ts
+  s_840bfd09bfcfc6::t_19fc04042006b2 1-29
+12-audio-fingerprinting/scripts/test-all.sh
+  s_840bfd09bfcfc6::t_dd82e5e70515a5 1-15
+12-audio-fingerprinting/backend/src/main.rs
+  s_840bfd09bfcfc6::t_28b1d378fe2958 1-29
+  s_840bfd09bfcfc6::t_1cfe5fb55beab1 30-31
+12-audio-fingerprinting/scripts/ports.env
+  s_840bfd09bfcfc6::t_dd82e5e70515a5 1-2
+12-audio-fingerprinting/scripts/status.sh
+  s_840bfd09bfcfc6::t_dd82e5e70515a5 1-14
+12-audio-fingerprinting/frontend/src/audio/plot.test.ts
+  s_840bfd09bfcfc6::t_6d9b6ea3ea12d7 20-22,28
+  s_840bfd09bfcfc6::t_bbfc0fd38c50ac 1-19,23-27,29-36
+12-audio-fingerprinting/frontend/src/components/QueryPanel.tsx
+  s_840bfd09bfcfc6::t_e0d997977b0e38 1,3-83
+  s_840bfd09bfcfc6::t_f4671981bd059d 2
+12-audio-fingerprinting/backend/src/fingerprint/matcher.rs
+  s_840bfd09bfcfc6::t_1f0c5733f6c47b 1-104
+  s_840bfd09bfcfc6::t_99936475704c37 105-107
+12-audio-fingerprinting/backend/src/dsp/noise.rs
+  s_840bfd09bfcfc6::t_d1e716da777a4f 1-67
+12-audio-fingerprinting/frontend/vite.config.ts
+  s_840bfd09bfcfc6::t_abc4ca07a64ed1 1-28
+12-audio-fingerprinting/frontend/src/api.ts
+  s_840bfd09bfcfc6::t_a4ba0c720eab5a 1-59
+12-audio-fingerprinting/frontend/package.json
+  s_840bfd09bfcfc6::t_f634af2ab80d58 1-24
+12-audio-fingerprinting/backend/src/fingerprint/hasher.rs
+  s_840bfd09bfcfc6::t_e11bdf361df39a 1-123
+  s_840bfd09bfcfc6::t_d601f81537132f 124-126
+12-audio-fingerprinting/backend/src/fingerprint/spectrogram.rs
+  s_840bfd09bfcfc6::t_18e31b2b534ef5 1-107
+  s_840bfd09bfcfc6::t_d48c0905a82dc0 108-110
+12-audio-fingerprinting/frontend/src/styles.css
+  s_840bfd09bfcfc6::t_0c4a3094868376 1-217
+12-audio-fingerprinting/backend/src/fingerprint/mod.rs
+  s_840bfd09bfcfc6::t_12707ab58ffb45 1-34,37-59
+  s_840bfd09bfcfc6::t_de65004ab23072 35-36
+12-audio-fingerprinting/frontend/src/components/ResultPanel.tsx
+  s_840bfd09bfcfc6::t_cef68a00cddc61 1-58
+12-audio-fingerprinting/scripts/setup.sh
+  s_840bfd09bfcfc6::t_dd82e5e70515a5 1-13
+12-audio-fingerprinting/frontend/src/audio/recorder.ts
+  s_840bfd09bfcfc6::t_cd0283162a50f5 1-28
+12-audio-fingerprinting/frontend/src/components/useCanvas.ts
+  s_840bfd09bfcfc6::t_b8b0c945307451 1-23
+12-audio-fingerprinting/README.md
+  s_840bfd09bfcfc6::t_e54e133b2149e7 1-139
+12-audio-fingerprinting/backend/src/wav.rs
+  s_840bfd09bfcfc6::t_2771f8f84bea15 1-146,151-212
+  s_840bfd09bfcfc6::t_e72125d36331a3 147-150
+12-audio-fingerprinting/backend/Cargo.lock
+  s_840bfd09bfcfc6::t_6128c74a13ae12 1-510
+12-audio-fingerprinting/frontend/bun.lock
+  s_840bfd09bfcfc6::t_bd8c899f66a543 1-168
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "6d91f14c87b39e6f02ffd64aec21fff5b9b27c74",
+  "prompts": {},
+  "sessions": {
+    "s_840bfd09bfcfc6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "55beed20-3794-44e0-bd93-90c5b1c0f858",
+        "model": "unknown"
+      },
+      "human_author": "diegopacheco <diego.pacheco.it@gmail.com>"
+    }
+  }
+}

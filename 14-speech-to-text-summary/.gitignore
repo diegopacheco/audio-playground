@@ -1,0 +1,6 @@
+.run/
+models/
+backend/target/
+frontend/node_modules/
+frontend/dist/
+frontend/tsconfig.tsbuildinfo

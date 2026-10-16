@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 520" width="1100" height="520">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&amp;display=swap');
+      text { font-family: 'Caveat', 'Comic Sans MS', cursive; fill: #1e1e1e; }
+      .title { font-size: 26px; font-weight: 700; }
+      .label { font-size: 21px; text-anchor: middle; }
+      .tiny { font-size: 16px; text-anchor: middle; fill: #495057; }
+      .box { stroke: #1e1e1e; stroke-width: 2; }
+      .frame { fill: none; stroke: #868e96; stroke-width: 2; stroke-dasharray: 8 6; }
+      .arrow { fill: none; stroke: #1e1e1e; stroke-width: 2; marker-end: url(#head); }
+      .dashed { fill: none; stroke: #1e1e1e; stroke-width: 2; stroke-dasharray: 6 5; marker-end: url(#head); }
+    </style>
+    <filter id="wobble">
+      <feTurbulence type="fractalNoise" baseFrequency="0.02" numOctaves="2" seed="5" />
+      <feDisplacementMap in="SourceGraphic" scale="3" />
+    </filter>
+    <marker id="head" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10" fill="none" stroke="#1e1e1e" stroke-width="1.6" />
+    </marker>
+  </defs>
+  <rect width="1100" height="520" fill="#ffffff" />
+  <g filter="url(#wobble)">
+    <rect class="frame" x="20" y="50" width="250" height="450" rx="14" />
+    <rect class="frame" x="310" y="50" width="520" height="450" rx="14" />
+    <rect class="box" x="45" y="90" width="200" height="70" rx="10" fill="#a5d8ff" />
+    <rect class="box" x="45" y="210" width="200" height="70" rx="10" fill="#ffec99" />
+    <rect class="box" x="45" y="330" width="200" height="70" rx="10" fill="#d0bfff" />
+    <rect class="box" x="335" y="90" width="220" height="70" rx="10" fill="#b2f2bb" />
+    <rect class="box" x="590" y="90" width="220" height="70" rx="10" fill="#ffc9c9" />
+    <rect class="box" x="335" y="210" width="220" height="70" rx="10" fill="#ffec99" />
+    <rect class="box" x="590" y="210" width="220" height="70" rx="10" fill="#a5d8ff" />
+    <rect class="box" x="335" y="330" width="220" height="70" rx="10" fill="#d0bfff" />
+    <rect class="box" x="590" y="330" width="220" height="70" rx="10" fill="#b2f2bb" />
+    <rect class="box" x="870" y="210" width="210" height="70" rx="10" fill="#ffc9c9" />
+    <rect class="box" x="870" y="330" width="210" height="70" rx="10" fill="#ffd8a8" />
+    <path class="arrow" d="M 245 125 L 333 125" />
+    <path class="dashed" d="M 333 150 C 290 160 290 245 247 245" />
+    <path class="arrow" d="M 145 280 L 145 328" />
+    <path class="arrow" d="M 555 125 L 588 125" />
+    <path class="arrow" d="M 700 160 C 700 190 445 180 445 208" />
+    <path class="arrow" d="M 555 245 L 588 245" />
+    <path class="arrow" d="M 810 245 L 868 245" />
+    <path class="arrow" d="M 245 365 L 333 365" />
+    <path class="arrow" d="M 555 365 L 588 365" />
+    <path class="dashed" d="M 810 365 L 868 365" />
+  </g>
+  <text class="title" x="40" y="38">Browser (React)</text>
+  <text class="title" x="330" y="38">Rust backend (axum)</text>
+  <text class="title" x="870" y="190">Local / Cloud</text>
+  <text class="label" x="145" y="122">Mic (MediaRecorder)</text>
+  <text class="tiny" x="145" y="146">or file upload</text>
+  <text class="label" x="145" y="242">Transcript view</text>
+  <text class="tiny" x="145" y="266">segments + timestamps</text>
+  <text class="label" x="145" y="362">Summary panel</text>
+  <text class="tiny" x="145" y="386">health badges</text>
+  <text class="label" x="445" y="122">POST /api/transcribe</text>
+  <text class="tiny" x="445" y="146">WAV or WebM bytes</text>
+  <text class="label" x="700" y="122">ffmpeg decode</text>
+  <text class="tiny" x="700" y="146">only when not WAV</text>
+  <text class="label" x="445" y="242">WAV parse + downmix</text>
+  <text class="tiny" x="445" y="266">sinc lowpass + resample 16k</text>
+  <text class="label" x="700" y="242">WhisperCppTranscriber</text>
+  <text class="tiny" x="700" y="266">trait Transcriber</text>
+  <text class="label" x="445" y="362">POST /api/summarize</text>
+  <text class="tiny" x="445" y="386">mode summary | action_items</text>
+  <text class="label" x="700" y="362">ClaudeSummarizer</text>
+  <text class="tiny" x="700" y="386">trait Summarizer</text>
+  <text class="label" x="975" y="242">whisper-cli</text>
+  <text class="tiny" x="975" y="266">ggml base.en, -oj json</text>
+  <text class="label" x="975" y="362">Anthropic Messages API</text>
+  <text class="tiny" x="975" y="386">HTTPS, 503 when no key</text>
+  <text class="tiny" x="330" y="470" style="text-anchor: start">transcript JSON returns to the browser; text is sent back for summaries</text>
+</svg>

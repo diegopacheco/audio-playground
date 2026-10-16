@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background: #f6f7fb;
+  color: #1f2430;
+}
+
+main {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 24px 16px 48px;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 16px;
+  margin: 0 0 12px;
+  color: #4a5161;
+}
+
+.card {
+  background: #ffffff;
+  border: 1px solid #e3e6ee;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+
+button,
+.upload {
+  border: 1px solid #c9cfdd;
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 8px 14px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+button.primary {
+  background: #3b5bdb;
+  border-color: #3b5bdb;
+  color: #ffffff;
+}
+
+button.danger {
+  background: #e03131;
+  border-color: #e03131;
+  color: #ffffff;
+}
+
+button:disabled,
+.upload.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.upload input {
+  display: none;
+}
+
+.badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.badge {
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  border: 1px solid transparent;
+}
+
+.badge.ok {
+  background: #d3f9d8;
+  border-color: #8ce99a;
+  color: #2b8a3e;
+}
+
+.badge.missing {
+  background: #ffe3e3;
+  border-color: #ffa8a8;
+  color: #c92a2a;
+}
+
+.badge.unknown {
+  background: #f1f3f5;
+  color: #868e96;
+}
+
+.muted {
+  color: #7a8194;
+  font-size: 14px;
+}
+
+.error {
+  color: #c92a2a;
+  background: #fff5f5;
+  border: 1px solid #ffc9c9;
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-size: 14px;
+}
+
+.live {
+  color: #e03131;
+  font-weight: 600;
+}
+
+.segments {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.segments li {
+  display: flex;
+  gap: 12px;
+  padding: 6px 0;
+  border-bottom: 1px solid #f1f3f5;
+}
+
+.time {
+  font-family: ui-monospace, Menlo, monospace;
+  font-size: 13px;
+  color: #3b5bdb;
+  white-space: nowrap;
+}
+
+.result {
+  margin-top: 12px;
+}

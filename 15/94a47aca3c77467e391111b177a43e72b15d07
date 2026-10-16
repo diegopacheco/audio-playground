@@ -1,0 +1,127 @@
+07-effects-chain/scripts/ports.env
+  s_840bfd09bfcfc6::t_7d7f627727da9a 1-2
+07-effects-chain/scripts/ui.sh
+  s_840bfd09bfcfc6::t_62692e28231d6c 1-12
+07-effects-chain/backend/src/wav.rs
+  s_840bfd09bfcfc6::t_fd5dfa1a7d2220 1-171
+07-effects-chain/scripts/setup.sh
+  s_840bfd09bfcfc6::t_6e3c3552eeb44d 1-13
+07-effects-chain/backend/src/main.rs
+  s_840bfd09bfcfc6::t_8ddd740428cb81 1-23
+07-effects-chain/frontend/src/components/Monitor.tsx
+  s_840bfd09bfcfc6::t_5c7ad35e4c5e62 1-37
+07-effects-chain/frontend/src/audio/waveform.ts
+  s_840bfd09bfcfc6::t_571895c5d7f57e 1-19
+07-effects-chain/scripts/test-all.sh
+  s_840bfd09bfcfc6::t_2bee6693b0f145 1-15
+07-effects-chain/frontend/tsconfig.json
+  s_840bfd09bfcfc6::t_6dad305d963a42 1-18
+07-effects-chain/backend/src/api.rs
+  s_840bfd09bfcfc6::t_f2c3560aa050de 79-125
+  s_840bfd09bfcfc6::t_83bac783e7c348 1-78
+07-effects-chain/scripts/start-all.sh
+  s_840bfd09bfcfc6::t_38f6fa022ff03e 1-23
+07-effects-chain/backend/src/source.rs
+  s_840bfd09bfcfc6::t_d13ef41e8c4480 1-22,25-67,75-82
+  s_840bfd09bfcfc6::t_e13c0d8c0c0a34 23-24
+  s_840bfd09bfcfc6::t_6357ed59bc610b 68-74
+07-effects-chain/scripts/common.sh
+  s_840bfd09bfcfc6::t_103e9e1b04cfcc 1-122
+07-effects-chain/frontend/index.html
+  s_840bfd09bfcfc6::t_2a2d5eaac05206 1-12
+07-effects-chain/backend/src/effects/reverb.rs
+  s_840bfd09bfcfc6::t_9ceb12f67f8f1b 1-123
+  s_840bfd09bfcfc6::t_4e2b0716be6452 124-127
+07-effects-chain/frontend/src/App.tsx
+  s_840bfd09bfcfc6::t_f8d1c90fe7a489 1-116
+07-effects-chain/backend/Cargo.toml
+  s_840bfd09bfcfc6::t_c713663deae73b 1-10
+07-effects-chain/frontend/src/styles.css
+  s_840bfd09bfcfc6::t_62c01ce23ec678 150
+  s_840bfd09bfcfc6::t_b4a7f653403069 157-161,164
+  s_840bfd09bfcfc6::t_093c853e0d7f24 1-149,151-156,162-163,165-200
+07-effects-chain/frontend/src/main.tsx
+  s_840bfd09bfcfc6::t_10f4b43d139986 1-13
+07-effects-chain/backend/src/effects/echo.rs
+  s_840bfd09bfcfc6::t_9da04a9a3ed25c 1-56
+07-effects-chain/frontend/src/components/ChainEditor.tsx
+  s_840bfd09bfcfc6::t_40d6b1b16bf60d 1-44
+07-effects-chain/frontend/package.json
+  s_840bfd09bfcfc6::t_c23487fee890a5 1-7,9-24
+  s_840bfd09bfcfc6::t_e634fd374617f2 8
+07-effects-chain/frontend/src/types.ts
+  s_840bfd09bfcfc6::t_38fff424edc87c 1-37
+07-effects-chain/frontend/src/audio/chain.test.ts
+  s_840bfd09bfcfc6::t_5591fcb442e05d 1-54
+07-effects-chain/backend/src/effects/distortion.rs
+  s_840bfd09bfcfc6::t_44c4a60f6b89cf 1-46
+07-effects-chain/frontend/src/components/SourcePanel.tsx
+  s_840bfd09bfcfc6::t_6636b19b5d0f7e 1-30
+07-effects-chain/backend/rust-toolchain.toml
+  s_840bfd09bfcfc6::t_54587c6d437f04 1-3
+07-effects-chain/frontend/src/audio/base64.ts
+  s_840bfd09bfcfc6::t_0a00bc23fc7d2f 1-9
+07-effects-chain/backend/src/error.rs
+  s_840bfd09bfcfc6::t_2bba5164dc3acb 1-34
+07-effects-chain/frontend/src/audio/waveform.test.ts
+  s_840bfd09bfcfc6::t_482dbb0ddcb6fe 1-33
+07-effects-chain/backend/src/effects/mod.rs
+  s_840bfd09bfcfc6::t_8103629ccee6fa 1-45
+07-effects-chain/backend/src/effects/delay_line.rs
+  s_840bfd09bfcfc6::t_ac3ec4a93e84e9 1-42
+07-effects-chain/architecture.svg
+  s_840bfd09bfcfc6::t_7f5c719e9d0dad 1-10,12-80
+  s_840bfd09bfcfc6::t_c549cb72335695 11
+07-effects-chain/frontend/src/components/Waveform.tsx
+  s_840bfd09bfcfc6::t_cd31f835893303 1-45
+07-effects-chain/backend/src/effects/bitcrusher.rs
+  s_840bfd09bfcfc6::t_a8e940db8554e2 1-46,51-82
+  s_840bfd09bfcfc6::t_ea8e7231c24dfd 47-50
+07-effects-chain/frontend/src/api.ts
+  s_840bfd09bfcfc6::t_8da6a3e0c36326 1-29
+07-effects-chain/frontend/src/audio/playback.ts
+  s_840bfd09bfcfc6::t_3e0f907d55bae0 1-56
+07-effects-chain/frontend/vite.config.ts
+  s_840bfd09bfcfc6::t_b78027cec00f93 1-27
+07-effects-chain/backend/src/base64.rs
+  s_840bfd09bfcfc6::t_840c662bc1a81b 36-55,59-63
+  s_840bfd09bfcfc6::t_15a4d5661895ed 57-58
+  s_840bfd09bfcfc6::t_518bb0878df545 1-35,56,64-81
+07-effects-chain/scripts/stop-all.sh
+  s_840bfd09bfcfc6::t_145ff0df05b06e 1-17
+07-effects-chain/backend/src/effects/registry.rs
+  s_840bfd09bfcfc6::t_27101991c1ef83 1-247
+  s_840bfd09bfcfc6::t_6171a6984b8740 248
+07-effects-chain/frontend/src/audio/chain.ts
+  s_840bfd09bfcfc6::t_3fdd5b5af8bb5e 1-31
+07-effects-chain/backend/src/effects/chain.rs
+  s_840bfd09bfcfc6::t_89aa3a57ae032e 1-119
+07-effects-chain/README.md
+  s_840bfd09bfcfc6::t_00652ed1c2c0d9 1-162
+07-effects-chain/scripts/status.sh
+  s_840bfd09bfcfc6::t_3b84b6a97a1646 1-14
+07-effects-chain/backend/src/effects/delay.rs
+  s_840bfd09bfcfc6::t_b736840963d356 1-57
+07-effects-chain/frontend/src/components/EffectCard.tsx
+  s_840bfd09bfcfc6::t_a60b180e0894f1 1-51
+07-effects-chain/backend/Cargo.lock
+  s_840bfd09bfcfc6::t_bac0e0bee309a7 1-488
+07-effects-chain/frontend/bun.lock
+  s_840bfd09bfcfc6::t_60d00cc4de458f 1-270
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "1594a47aca3c77467e391111b177a43e72b15d07",
+  "prompts": {},
+  "sessions": {
+    "s_840bfd09bfcfc6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "55beed20-3794-44e0-bd93-90c5b1c0f858",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "diegopacheco <diego.pacheco.it@gmail.com>"
+    }
+  }
+}

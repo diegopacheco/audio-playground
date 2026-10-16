@@ -1,0 +1,217 @@
+:root {
+  font-family: "Inter", system-ui, -apple-system, sans-serif;
+  color: #1f2937;
+  background: #f7f8fb;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 24px 16px 48px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+header p {
+  margin: 4px 0 20px;
+  color: #6b7280;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: minmax(0, 5fr) minmax(0, 6fr);
+  gap: 16px;
+  align-items: start;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  padding: 16px 18px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+
+.card h2 {
+  margin: 0 0 12px;
+  font-size: 17px;
+}
+
+.card h3 {
+  margin: 14px 0 6px;
+  font-size: 14px;
+}
+
+.empty {
+  color: #9ca3af;
+  text-align: center;
+  padding: 60px 16px;
+}
+
+.query-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 8px 0;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+.label {
+  width: 110px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+button {
+  background: #4f46e5;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 7px 12px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background: #c7d2fe;
+  cursor: default;
+}
+
+input[type="text"],
+select {
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  padding: 6px 8px;
+  font-size: 13px;
+}
+
+input[type="range"] {
+  width: 90px;
+}
+
+.muted {
+  color: #6b7280;
+  font-size: 13px;
+}
+
+.hint {
+  color: #9ca3af;
+  font-size: 12px;
+  margin: 8px 0 0;
+}
+
+.tracks,
+.candidates {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.tracks li,
+.candidates li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 0;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+.track-name {
+  font-weight: 600;
+  font-size: 14px;
+  min-width: 150px;
+}
+
+.add-track {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.verdict {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  padding: 10px 14px;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+.verdict strong {
+  font-size: 20px;
+}
+
+.hit {
+  background: #ecfdf5;
+  color: #166534;
+}
+
+.miss {
+  background: #fef2f2;
+  color: #991b1b;
+}
+
+.plot {
+  margin: 12px 0 0;
+}
+
+.plot figcaption {
+  font-size: 12px;
+  color: #6b7280;
+  margin-bottom: 4px;
+}
+
+.plot canvas {
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  max-width: 100%;
+}
+
+.bar {
+  flex: 1;
+  height: 8px;
+  background: #f1f5f9;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.bar span {
+  display: block;
+  height: 100%;
+  background: #4f46e5;
+}
+
+.player {
+  width: 100%;
+}
+
+.status {
+  color: #4f46e5;
+  margin: 0;
+}
+
+.error {
+  color: #b91c1c;
+  margin: 0;
+}
+
+@media (max-width: 900px) {
+  .layout {
+    grid-template-columns: 1fr;
+  }
+}

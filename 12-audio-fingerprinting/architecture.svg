@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1190 580" width="1190" height="580">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&amp;display=swap');
+      text { font-family: 'Caveat', 'Comic Sans MS', cursive; fill: #1e1e1e; }
+      .title { font-size: 24px; font-weight: 700; }
+      .label { font-size: 20px; text-anchor: middle; }
+      .tiny { font-size: 16px; text-anchor: middle; fill: #495057; }
+      .note { font-size: 16px; text-anchor: middle; fill: #364fc7; }
+      .box { stroke: #1e1e1e; stroke-width: 2; }
+      .frame { fill: none; stroke: #868e96; stroke-width: 2; stroke-dasharray: 8 6; }
+      .arrow { fill: none; stroke: #1e1e1e; stroke-width: 2; marker-end: url(#head); }
+    </style>
+    <filter id="wobble">
+      <feTurbulence type="fractalNoise" baseFrequency="0.02" numOctaves="2" seed="7" />
+      <feDisplacementMap in="SourceGraphic" scale="3" />
+    </filter>
+    <marker id="head" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10" fill="none" stroke="#1e1e1e" stroke-width="1.6" />
+    </marker>
+  </defs>
+  <rect width="1190" height="580" fill="#ffffff" />
+  <g filter="url(#wobble)">
+    <rect class="frame" x="20" y="45" width="320" height="500" rx="14" />
+    <rect class="frame" x="460" y="45" width="710" height="500" rx="14" />
+    <rect class="box" x="40" y="80" width="280" height="64" rx="10" fill="#a5d8ff" />
+    <rect class="box" x="40" y="180" width="280" height="64" rx="10" fill="#a5d8ff" />
+    <rect class="box" x="40" y="280" width="280" height="64" rx="10" fill="#a5d8ff" />
+    <rect class="box" x="40" y="400" width="280" height="100" rx="10" fill="#b2f2bb" />
+    <rect class="box" x="480" y="80" width="180" height="64" rx="10" fill="#ffec99" />
+    <rect class="box" x="480" y="180" width="180" height="64" rx="10" fill="#ffd8a8" />
+    <rect class="box" x="480" y="280" width="180" height="64" rx="10" fill="#ffd8a8" />
+    <rect class="box" x="700" y="70" width="220" height="60" rx="10" fill="#d0bfff" />
+    <rect class="box" x="700" y="160" width="220" height="60" rx="10" fill="#d0bfff" />
+    <rect class="box" x="700" y="250" width="220" height="60" rx="10" fill="#d0bfff" />
+    <rect class="box" x="700" y="340" width="220" height="60" rx="10" fill="#d0bfff" />
+    <rect class="box" x="560" y="450" width="190" height="60" rx="10" fill="#ffc9c9" />
+    <rect class="box" x="800" y="450" width="200" height="60" rx="10" fill="#ffc9c9" />
+    <rect class="box" x="950" y="250" width="200" height="80" rx="10" fill="#b2f2bb" />
+    <path class="arrow" d="M 320 112 L 478 112" />
+    <path class="arrow" d="M 320 212 Q 400 200 478 132" />
+    <path class="arrow" d="M 480 312 L 322 312" />
+    <path class="arrow" d="M 660 104 L 698 100" />
+    <path class="arrow" d="M 660 205 Q 682 160 700 128" />
+    <path class="arrow" d="M 570 244 L 570 278" />
+    <path class="arrow" d="M 810 130 L 810 158" />
+    <path class="arrow" d="M 810 220 L 810 248" />
+    <path class="arrow" d="M 810 310 L 810 338" />
+    <path class="arrow" d="M 760 400 Q 700 420 662 448" />
+    <path class="arrow" d="M 860 400 Q 890 420 900 448" />
+    <path class="arrow" d="M 750 480 L 798 480" />
+    <path class="arrow" d="M 970 450 L 1030 332" />
+    <path class="arrow" d="M 1110 330 L 1110 528 L 380 528 L 322 462" />
+  </g>
+  <text class="title" x="40" y="34">Browser: React + Vite</text>
+  <text class="title" x="480" y="34">Rust backend: axum</text>
+  <text class="label" x="180" y="108">Upload WAV</text>
+  <text class="tiny" x="180" y="130">any rate, any channels</text>
+  <text class="label" x="180" y="208">Microphone N seconds</text>
+  <text class="tiny" x="180" y="230">MediaRecorder, decodeAudioData</text>
+  <text class="label" x="180" y="308">Random noisy clip</text>
+  <text class="tiny" x="180" y="330">plays it, then identifies it</text>
+  <text class="label" x="180" y="432">Result view</text>
+  <text class="tiny" x="180" y="456">constellation canvas</text>
+  <text class="tiny" x="180" y="476">offset histogram, candidates</text>
+  <text class="label" x="570" y="108">WAV reader</text>
+  <text class="tiny" x="570" y="130">or raw Float32 PCM</text>
+  <text class="label" x="570" y="208">Built-in library</text>
+  <text class="tiny" x="570" y="230">6 synthetic songs + uploads</text>
+  <text class="label" x="570" y="308">Clip cutter</text>
+  <text class="tiny" x="570" y="330">slice + white noise</text>
+  <text class="label" x="810" y="96">Resample to 8 kHz</text>
+  <text class="tiny" x="810" y="117">windowed-sinc low-pass</text>
+  <text class="label" x="810" y="186">Spectrogram</text>
+  <text class="tiny" x="810" y="207">STFT, Hann, radix-2 FFT</text>
+  <text class="label" x="810" y="276">PeakPicker</text>
+  <text class="tiny" x="810" y="297">local maxima = constellation</text>
+  <text class="label" x="810" y="366">Hasher</text>
+  <text class="tiny" x="810" y="387">anchor + zone: f1, f2, dt</text>
+  <text class="label" x="655" y="476">Index</text>
+  <text class="tiny" x="655" y="497">HashMap hash to (track, t)</text>
+  <text class="label" x="900" y="476">Matcher</text>
+  <text class="tiny" x="900" y="497">histogram of time offsets</text>
+  <text class="label" x="1050" y="280">JSON response</text>
+  <text class="tiny" x="1050" y="302">match, score, offset</text>
+  <text class="tiny" x="1050" y="320">candidates, peaks</text>
+  <text class="note" x="400" y="102">POST /api/identify</text>
+  <text class="note" x="392" y="176">Float32 + rate</text>
+  <text class="note" x="400" y="302">GET /api/clip</text>
+  <text class="note" x="610" y="430">insert</text>
+  <text class="note" x="930" y="425">lookup</text>
+  <text class="note" x="720" y="570">identification JSON back to the browser</text>
+</svg>

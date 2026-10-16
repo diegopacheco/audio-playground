@@ -1,0 +1,102 @@
+06-pitch-tuner/backend/src/note.rs
+  s_840bfd09bfcfc6::t_c5dab797fc66ec 1-25,27-29,31-109
+  s_840bfd09bfcfc6::t_6f7810ab8f883b 26,30
+06-pitch-tuner/scripts/setup.sh
+  s_840bfd09bfcfc6::t_d1b652211d9892 1-13
+06-pitch-tuner/backend/src/error.rs
+  s_840bfd09bfcfc6::t_7149f9708f2fa6 1-34
+06-pitch-tuner/frontend/package.json
+  s_840bfd09bfcfc6::t_74c4d306adaee9 1-24
+06-pitch-tuner/frontend/src/components/TunerGauge.tsx
+  s_840bfd09bfcfc6::t_72131fce4e7989 1-36,40-53
+  s_840bfd09bfcfc6::t_c02dbbd88543cc 37-39
+06-pitch-tuner/frontend/src/audio/engine.ts
+  s_840bfd09bfcfc6::t_f674cc5aae17aa 1-81
+06-pitch-tuner/frontend/src/audio/notes.test.ts
+  s_840bfd09bfcfc6::t_fbce6807542ac7 1-46
+06-pitch-tuner/scripts/test-all.sh
+  s_840bfd09bfcfc6::t_25a1777a483a54 1-15
+06-pitch-tuner/frontend/src/components/SourcePanel.tsx
+  s_840bfd09bfcfc6::t_e0b318b6614fa5 1-93
+06-pitch-tuner/frontend/index.html
+  s_840bfd09bfcfc6::t_924c9a4cdae8a0 1-12
+06-pitch-tuner/scripts/start-all.sh
+  s_840bfd09bfcfc6::t_673ae4074c2b02 1-30
+06-pitch-tuner/scripts/common.sh
+  s_840bfd09bfcfc6::t_444635d71bc281 1-28,30-119
+  s_840bfd09bfcfc6::t_c72421a26bb709 29
+06-pitch-tuner/frontend/src/styles.css
+  s_840bfd09bfcfc6::t_6da6532fa84855 1-191
+06-pitch-tuner/backend/src/main.rs
+  s_840bfd09bfcfc6::t_a38da4a2c0491d 1-18
+06-pitch-tuner/scripts/ports.env
+  s_840bfd09bfcfc6::t_a8074e8f369c16 1-2
+06-pitch-tuner/frontend/src/components/SettingsPanel.tsx
+  s_840bfd09bfcfc6::t_d20f0ff71f4184 1-39
+06-pitch-tuner/backend/src/pitch/yin.rs
+  s_840bfd09bfcfc6::t_76d1452f6d28c4 1-131
+06-pitch-tuner/backend/rust-toolchain.toml
+  s_840bfd09bfcfc6::t_af785d091ac4f2 1-2
+06-pitch-tuner/README.md
+  s_840bfd09bfcfc6::t_b83e8ab109b939 1-80,82-91,93-156
+  s_840bfd09bfcfc6::t_316fe229663927 81
+  s_840bfd09bfcfc6::t_ac9a185a89b8d6 92
+06-pitch-tuner/frontend/src/components/NoteDisplay.tsx
+  s_840bfd09bfcfc6::t_73fac4049ffee6 1-24
+06-pitch-tuner/frontend/src/audio/notes.ts
+  s_840bfd09bfcfc6::t_42f927a94c89b4 1-28
+06-pitch-tuner/scripts/stop-all.sh
+  s_840bfd09bfcfc6::t_57951fdd88e20e 1-17
+06-pitch-tuner/frontend/vite.config.ts
+  s_840bfd09bfcfc6::t_7fc864c127e88b 1-19
+06-pitch-tuner/architecture.svg
+  s_840bfd09bfcfc6::t_53da0045d287a5 9,24-41,44-67
+  s_840bfd09bfcfc6::t_233d2bc06be59d 1-8,10-23,42-43,68
+06-pitch-tuner/backend/src/pitch/mod.rs
+  s_840bfd09bfcfc6::t_8210eb4de1c6c9 1-105
+06-pitch-tuner/.gitignore
+  s_840bfd09bfcfc6::t_70f2f3bdb463c3 1-5
+06-pitch-tuner/frontend/src/App.tsx
+  s_840bfd09bfcfc6::t_78ca988c7f03d5 1-126
+06-pitch-tuner/backend/src/pitch/autocorrelation.rs
+  s_840bfd09bfcfc6::t_9b06694b0eb4e8 1-115
+06-pitch-tuner/frontend/tsconfig.json
+  s_840bfd09bfcfc6::t_bb9602c0b367da 14
+  s_840bfd09bfcfc6::t_6029875f47e58d 1-13,15-17
+06-pitch-tuner/frontend/src/types.ts
+  s_840bfd09bfcfc6::t_316c83748022dc 1-30
+06-pitch-tuner/backend/src/api.rs
+  s_840bfd09bfcfc6::t_5fb2582be82ae5 1-168
+06-pitch-tuner/backend/Cargo.toml
+  s_840bfd09bfcfc6::t_010f56efe3f315 1-12
+06-pitch-tuner/frontend/src/main.tsx
+  s_840bfd09bfcfc6::t_2ec27513b9584b 1-15
+06-pitch-tuner/backend/src/pitch/signals.rs
+  s_840bfd09bfcfc6::t_538db3e478ea84 1-31
+06-pitch-tuner/frontend/src/api.ts
+  s_840bfd09bfcfc6::t_369a4bd8d28adc 1-52
+06-pitch-tuner/backend/Cargo.lock
+  s_840bfd09bfcfc6::t_b2e72893392c33 1-760
+06-pitch-tuner/frontend/bun.lock
+  s_840bfd09bfcfc6::t_a16792a21101d1 1-168
+06-pitch-tuner/scripts/status.sh
+  s_840bfd09bfcfc6::t_629c1c7fa18f74 1-14
+06-pitch-tuner/scripts/ui.sh
+  s_840bfd09bfcfc6::t_0a031768dc1bd1 1-12
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "fd3e6760f79259879c3af4eb6675959581f68a14",
+  "prompts": {},
+  "sessions": {
+    "s_840bfd09bfcfc6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "55beed20-3794-44e0-bd93-90c5b1c0f858",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "diegopacheco <diego.pacheco.it@gmail.com>"
+    }
+  }
+}

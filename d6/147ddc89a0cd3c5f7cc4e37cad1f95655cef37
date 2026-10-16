@@ -1,0 +1,125 @@
+05-fft-spectrum-analyzer/architecture.svg
+  s_840bfd09bfcfc6::t_bc1d9f15dce776 1-14,16-95
+  s_840bfd09bfcfc6::t_b563ed62706bbe 15
+05-fft-spectrum-analyzer/backend/src/api.rs
+  s_840bfd09bfcfc6::t_58a52510e42259 1-100
+05-fft-spectrum-analyzer/backend/rust-toolchain.toml
+  s_840bfd09bfcfc6::t_37359746a209b3 1-2
+05-fft-spectrum-analyzer/backend/src/dsp/window.rs
+  s_840bfd09bfcfc6::t_7fed85dc127eb1 1-105
+05-fft-spectrum-analyzer/scripts/ports.env
+  s_840bfd09bfcfc6::t_2b7643c8df89a4 1-2
+05-fft-spectrum-analyzer/backend/src/pcm.rs
+  s_840bfd09bfcfc6::t_7fccb9baaa8bde 4,8-11
+  s_840bfd09bfcfc6::t_7ccab78adecd17 1-3,5-7,12-30
+05-fft-spectrum-analyzer/scripts/test-all.sh
+  s_840bfd09bfcfc6::t_d74ded3169b033 1-15
+05-fft-spectrum-analyzer/scripts/setup.sh
+  s_840bfd09bfcfc6::t_de8c6da454b430 1-17
+05-fft-spectrum-analyzer/backend/src/dsp/fft.rs
+  s_840bfd09bfcfc6::t_b4e8ba335f1099 1-175
+  s_840bfd09bfcfc6::t_4a2b9445717a71 176-178
+05-fft-spectrum-analyzer/frontend/vite.config.ts
+  s_840bfd09bfcfc6::t_37f5a5e13ee7c7 1-27
+05-fft-spectrum-analyzer/backend/src/lib.rs
+  s_840bfd09bfcfc6::t_2a764cbc6b66b5 1-4
+05-fft-spectrum-analyzer/backend/Cargo.toml
+  s_840bfd09bfcfc6::t_5c4f7816d49330 1-11
+05-fft-spectrum-analyzer/backend/src/error.rs
+  s_840bfd09bfcfc6::t_f1e73e6881751c 1-9,11-20,24-53
+  s_840bfd09bfcfc6::t_3eb36c83a8bbb0 10
+  s_840bfd09bfcfc6::t_6d86afac31ae2e 21-23
+05-fft-spectrum-analyzer/scripts/stop-all.sh
+  s_840bfd09bfcfc6::t_e956693f2e7613 1-17
+05-fft-spectrum-analyzer/README.md
+  s_840bfd09bfcfc6::t_ec2f10598cc356 1-185
+05-fft-spectrum-analyzer/backend/src/dsp/complex.rs
+  s_840bfd09bfcfc6::t_397a868e7995e4 1-53
+05-fft-spectrum-analyzer/frontend/src/api.test.ts
+  s_840bfd09bfcfc6::t_3bec736f830bde 1-10
+05-fft-spectrum-analyzer/frontend/src/audio/colormap.test.ts
+  s_840bfd09bfcfc6::t_4f7a74bdb207a8 1-27
+05-fft-spectrum-analyzer/scripts/start-all.sh
+  s_840bfd09bfcfc6::t_aeb98c7a9201d4 1-23
+05-fft-spectrum-analyzer/backend/src/main.rs
+  s_840bfd09bfcfc6::t_03fc7b192d1822 3-16
+  s_840bfd09bfcfc6::t_95711d5e784afc 1-2
+05-fft-spectrum-analyzer/scripts/ui.sh
+  s_840bfd09bfcfc6::t_dcbdeb54edaea3 1-12
+05-fft-spectrum-analyzer/frontend/src/audio/format.test.ts
+  s_840bfd09bfcfc6::t_11d551bad19a8d 1-12
+05-fft-spectrum-analyzer/frontend/tsconfig.json
+  s_840bfd09bfcfc6::t_f0d7962f9a53c4 1-18
+05-fft-spectrum-analyzer/frontend/src/audio/capture.ts
+  s_840bfd09bfcfc6::t_ceff62f9323919 1-63,72-88
+  s_840bfd09bfcfc6::t_e47e0af4b047a2 64-71
+05-fft-spectrum-analyzer/frontend/index.html
+  s_840bfd09bfcfc6::t_8af6bf16513afe 1-12
+05-fft-spectrum-analyzer/frontend/src/audio/colormap.ts
+  s_840bfd09bfcfc6::t_95a6ccd2fea5cd 1-31
+05-fft-spectrum-analyzer/frontend/src/components/PeakReadout.tsx
+  s_840bfd09bfcfc6::t_a8e89d5cebe2a5 1-33
+05-fft-spectrum-analyzer/frontend/src/api.ts
+  s_840bfd09bfcfc6::t_3dffeeea7d6d18 1-52
+05-fft-spectrum-analyzer/frontend/src/useAnalyzer.ts
+  s_840bfd09bfcfc6::t_2369fc19e42e1a 36,38-42
+  s_840bfd09bfcfc6::t_3034d4d2ebd2f6 72
+  s_840bfd09bfcfc6::t_a57364d46721b8 1-18,23-30,33,37,43-47,51-59,64-71,77,90-103,105-111,116-117,119-120,122-124
+  s_840bfd09bfcfc6::t_d8dbd2fac34183 31,35
+  s_840bfd09bfcfc6::t_324866df814f96 50,60-63
+  s_840bfd09bfcfc6::t_bfd3772c07adc2 19-22,32,34,48-49,73-76,78-89,104,112-115,118,121
+05-fft-spectrum-analyzer/frontend/src/main.tsx
+  s_840bfd09bfcfc6::t_d504b26480b0b2 1-13
+05-fft-spectrum-analyzer/frontend/src/audio/framer.ts
+  s_840bfd09bfcfc6::t_74b0a1daf5b55e 1-25
+05-fft-spectrum-analyzer/scripts/common.sh
+  s_840bfd09bfcfc6::t_dcbdeb54edaea3 1-122
+05-fft-spectrum-analyzer/frontend/src/components/Spectrogram.tsx
+  s_840bfd09bfcfc6::t_835edf8faedebb 1-39
+05-fft-spectrum-analyzer/backend/src/dsp/mod.rs
+  s_840bfd09bfcfc6::t_ea720cd20aeed2 1-4
+05-fft-spectrum-analyzer/frontend/src/components/Controls.tsx
+  s_840bfd09bfcfc6::t_b478d822f990b9 1-80
+05-fft-spectrum-analyzer/backend/src/dsp/spectrum.rs
+  s_840bfd09bfcfc6::t_09e0b2dff49fa4 1-206
+  s_840bfd09bfcfc6::t_4c7222ed078d7c 207-217
+05-fft-spectrum-analyzer/frontend/src/audio/format.ts
+  s_840bfd09bfcfc6::t_1c6cbf36f201d2 1-2,4-9
+  s_840bfd09bfcfc6::t_60569a439b8e7c 3
+05-fft-spectrum-analyzer/frontend/src/audio/framer.test.ts
+  s_840bfd09bfcfc6::t_375b238b514e4c 1-35
+05-fft-spectrum-analyzer/.gitignore
+  s_840bfd09bfcfc6::t_dcbdeb54edaea3 1
+05-fft-spectrum-analyzer/frontend/src/types.ts
+  s_840bfd09bfcfc6::t_1b542941435b7e 1-44
+05-fft-spectrum-analyzer/scripts/status.sh
+  s_840bfd09bfcfc6::t_9d4bd22dedea29 1-14
+05-fft-spectrum-analyzer/frontend/src/App.tsx
+  s_840bfd09bfcfc6::t_b1e50e31fbdf33 1-35
+05-fft-spectrum-analyzer/frontend/src/styles.css
+  s_840bfd09bfcfc6::t_f891973bc62444 1-148
+05-fft-spectrum-analyzer/frontend/package.json
+  s_840bfd09bfcfc6::t_21fddfddf66d8a 1-23
+05-fft-spectrum-analyzer/frontend/src/components/BarsView.tsx
+  s_840bfd09bfcfc6::t_99100d434af0aa 1-47
+05-fft-spectrum-analyzer/backend/Cargo.lock
+  s_840bfd09bfcfc6::t_8b28a6da07e398 1-739
+05-fft-spectrum-analyzer/frontend/bun.lock
+  s_840bfd09bfcfc6::t_f3db4fadf9f474 1-270
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "d6147ddc89a0cd3c5f7cc4e37cad1f95655cef37",
+  "prompts": {},
+  "sessions": {
+    "s_840bfd09bfcfc6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "55beed20-3794-44e0-bd93-90c5b1c0f858",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "diegopacheco <diego.pacheco.it@gmail.com>"
+    }
+  }
+}

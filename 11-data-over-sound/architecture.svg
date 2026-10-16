@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600" viewBox="0 0 1000 600">
+  <defs>
+    <style>@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&amp;display=swap'); text { font-family: 'Caveat', cursive; fill: #2b2b2b; }</style>
+    <filter id="wobble">
+      <feTurbulence type="fractalNoise" baseFrequency="0.02" numOctaves="2" seed="5" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="3"/>
+    </filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2b2b2b"/>
+    </marker>
+  </defs>
+  <rect width="1000" height="600" fill="#fffdf8"/>
+  <text x="500" y="42" font-size="34" font-weight="700" text-anchor="middle">Data Over Sound Architecture</text>
+
+  <g filter="url(#wobble)" stroke="#2b2b2b" stroke-width="2">
+    <rect x="30" y="80" width="400" height="490" rx="16" fill="#eef5ff"/>
+    <rect x="570" y="80" width="400" height="490" rx="16" fill="#fff3e8"/>
+
+    <rect x="55" y="130" width="350" height="65" rx="10" fill="#d7f5dd"/>
+    <rect x="55" y="215" width="350" height="65" rx="10" fill="#e4dcff"/>
+    <rect x="55" y="300" width="165" height="85" rx="10" fill="#ffe9a8"/>
+    <rect x="240" y="300" width="165" height="85" rx="10" fill="#fcd5d5"/>
+    <rect x="55" y="405" width="350" height="70" rx="10" fill="#d4eefa"/>
+    <rect x="55" y="495" width="350" height="55" rx="10" fill="#d7f5dd"/>
+
+    <rect x="595" y="130" width="110" height="405" rx="10" fill="#ffe9a8"/>
+    <rect x="725" y="130" width="225" height="65" rx="10" fill="#d7f5dd"/>
+    <rect x="725" y="215" width="225" height="65" rx="10" fill="#e4dcff"/>
+    <rect x="725" y="300" width="225" height="65" rx="10" fill="#fcd5d5"/>
+    <rect x="725" y="385" width="225" height="65" rx="10" fill="#d4eefa"/>
+    <rect x="725" y="470" width="225" height="65" rx="10" fill="#d7f5dd"/>
+  </g>
+
+  <text x="230" y="112" font-size="26" font-weight="700" text-anchor="middle">Browser (React + Web Audio)</text>
+  <text x="770" y="112" font-size="26" font-weight="700" text-anchor="middle">Rust backend (axum)</text>
+
+  <text x="230" y="158" font-size="22" text-anchor="middle">SendPanel</text>
+  <text x="230" y="182" font-size="17" text-anchor="middle">type text, play WAV through the speaker</text>
+  <text x="230" y="243" font-size="22" text-anchor="middle">Waveform + Spectrogram</text>
+  <text x="230" y="267" font-size="17" text-anchor="middle">canvas views of the sent signal</text>
+  <text x="322" y="330" font-size="22" text-anchor="middle">Loopback</text>
+  <text x="322" y="353" font-size="17" text-anchor="middle">white noise at SNR</text>
+  <text x="322" y="373" font-size="17" text-anchor="middle">+ leading silence</text>
+  <text x="137" y="330" font-size="22" text-anchor="middle">Microphone</text>
+  <text x="137" y="353" font-size="17" text-anchor="middle">getUserMedia</text>
+  <text x="137" y="373" font-size="17" text-anchor="middle">Float32 frames</text>
+  <text x="230" y="435" font-size="22" text-anchor="middle">useReceiver</text>
+  <text x="230" y="460" font-size="17" text-anchor="middle">WebSocket, live bytes, frame history</text>
+  <text x="230" y="520" font-size="22" text-anchor="middle">DecodeLog</text>
+  <text x="230" y="541" font-size="17" text-anchor="middle">sync / length / data / crc bytes + uart bits</text>
+
+  <text x="650" y="320" font-size="22" text-anchor="middle">api.rs</text>
+  <text x="650" y="345" font-size="17" text-anchor="middle">routes</text>
+
+  <text x="837" y="158" font-size="22" text-anchor="middle">Modulator (Fsk)</text>
+  <text x="837" y="182" font-size="17" text-anchor="middle">BFSK 1200/2200, 4-FSK, CPFSK</text>
+  <text x="837" y="243" font-size="22" text-anchor="middle">framing + CRC16</text>
+  <text x="837" y="267" font-size="17" text-anchor="middle">preamble, sync, len, payload, uart bits</text>
+  <text x="837" y="328" font-size="22" text-anchor="middle">Receiver</text>
+  <text x="837" y="352" font-size="17" text-anchor="middle">preamble lock, timing recovery</text>
+  <text x="837" y="413" font-size="22" text-anchor="middle">Demodulator (Goertzel)</text>
+  <text x="837" y="437" font-size="17" text-anchor="middle">tone power per symbol, SNR</text>
+  <text x="837" y="498" font-size="22" text-anchor="middle">wav.rs</text>
+  <text x="837" y="522" font-size="17" text-anchor="middle">hand-written WAV reader/writer</text>
+
+  <g stroke="#2b2b2b" stroke-width="2" fill="none" marker-end="url(#arrow)">
+    <path d="M405,150 L593,150"/>
+    <path d="M593,180 L407,180"/>
+    <path d="M405,335 L593,335"/>
+    <path d="M593,365 L407,365"/>
+    <path d="M405,425 L593,425"/>
+    <path d="M593,460 L407,460"/>
+    <path d="M230,195 L230,213"/>
+    <path d="M137,385 L137,403"/>
+    <path d="M322,385 L322,403"/>
+    <path d="M230,475 L230,493"/>
+    <path d="M705,162 L723,162"/>
+    <path d="M705,247 L723,247"/>
+    <path d="M705,332 L723,332"/>
+    <path d="M705,417 L723,417"/>
+    <path d="M705,502 L723,502"/>
+  </g>
+
+  <text x="500" y="143" font-size="17" text-anchor="middle">POST /api/modulate</text>
+  <text x="500" y="198" font-size="17" text-anchor="middle">audio/wav</text>
+  <text x="500" y="327" font-size="17" text-anchor="middle">POST /api/demodulate</text>
+  <text x="500" y="383" font-size="17" text-anchor="middle">text, crc_ok, snr</text>
+  <text x="500" y="418" font-size="17" text-anchor="middle">WS /api/listen pcm</text>
+  <text x="500" y="478" font-size="17" text-anchor="middle">byte / frame events</text>
+</svg>

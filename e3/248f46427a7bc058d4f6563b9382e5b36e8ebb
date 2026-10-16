@@ -1,0 +1,125 @@
+08-drum-machine/backend/src/main.rs
+  s_840bfd09bfcfc6::t_e6bdf9bd559290 25-29
+  s_840bfd09bfcfc6::t_c867f73dcb9923 1-24,30-31
+08-drum-machine/backend/src/instruments/hihat.rs
+  s_840bfd09bfcfc6::t_62d0be0c668304 1-29
+08-drum-machine/backend/src/wav.rs
+  s_840bfd09bfcfc6::t_6a6b3898c2d4ed 1-51
+08-drum-machine/scripts/start-all.sh
+  s_840bfd09bfcfc6::t_a728a6b86ab8b7 1-25
+08-drum-machine/frontend/src/main.tsx
+  s_840bfd09bfcfc6::t_6a38141b92fdf4 1-13
+08-drum-machine/architecture.svg
+  s_840bfd09bfcfc6::t_cd675f970a2a94 1-60,62-66,68-70
+  s_840bfd09bfcfc6::t_ad1d8816d2ed9f 61,67
+08-drum-machine/README.md
+  s_840bfd09bfcfc6::t_43ae960396cd6f 1-120
+08-drum-machine/frontend/package.json
+  s_840bfd09bfcfc6::t_1955e1810fdf42 1-23
+08-drum-machine/frontend/src/audio/timing.test.ts
+  s_840bfd09bfcfc6::t_3153ce8fe7bc3b 1-38
+08-drum-machine/frontend/vite.config.ts
+  s_840bfd09bfcfc6::t_cdadcba58c95d6 1-16
+08-drum-machine/backend/Cargo.toml
+  s_840bfd09bfcfc6::t_4253eeb76d31e4 1-10
+08-drum-machine/backend/src/dsp/filter.rs
+  s_840bfd09bfcfc6::t_525f418ff51b70 1-30,33-83,91-96
+  s_840bfd09bfcfc6::t_fa5e54f60bd122 31-32
+  s_840bfd09bfcfc6::t_0b547d52d8736f 84-90
+  s_840bfd09bfcfc6::t_7bb5a68e7162cf 97-98
+08-drum-machine/frontend/src/App.tsx
+  s_840bfd09bfcfc6::t_6a3a7df484a003 1-109
+08-drum-machine/frontend/src/types.ts
+  s_840bfd09bfcfc6::t_68dc312667d4cc 1-29,31-41
+  s_840bfd09bfcfc6::t_cdc1ddb5ae9405 30
+08-drum-machine/backend/src/sequencer.rs
+  s_840bfd09bfcfc6::t_e6bdf9bd559290 38-42,57-58,105-108
+  s_840bfd09bfcfc6::t_63cd0ebfea63a5 1-37,43-56,59-104,109-156
+08-drum-machine/backend/src/api.rs
+  s_840bfd09bfcfc6::t_e6bdf9bd559290 41-47,59-64
+  s_840bfd09bfcfc6::t_903b5c87f69000 1-40,48-58,65-92
+08-drum-machine/frontend/src/pattern.test.ts
+  s_840bfd09bfcfc6::t_60ef10efc75535 1-29
+08-drum-machine/backend/src/instruments/snare.rs
+  s_840bfd09bfcfc6::t_4fc9d562b919ec 1-32
+08-drum-machine/frontend/src/components/StepGrid.tsx
+  s_840bfd09bfcfc6::t_5b9a7b9d2251f1 1-41
+08-drum-machine/frontend/src/audio/sequencer.ts
+  s_840bfd09bfcfc6::t_cdc1ddb5ae9405 48-50
+  s_840bfd09bfcfc6::t_72b615eebf0acf 1-47,51-60
+08-drum-machine/scripts/ui.sh
+  s_840bfd09bfcfc6::t_dcbdeb54edaea3 1-12
+08-drum-machine/backend/src/dsp/noise.rs
+  s_840bfd09bfcfc6::t_39ecbee31eb28c 1-18
+08-drum-machine/frontend/src/audio/timing.ts
+  s_840bfd09bfcfc6::t_6745469d99abaf 1,3-11,13-21
+  s_840bfd09bfcfc6::t_cdc1ddb5ae9405 2,12
+08-drum-machine/backend/src/dsp/mod.rs
+  s_840bfd09bfcfc6::t_aae43f12b84e79 1-9
+08-drum-machine/scripts/stop-all.sh
+  s_840bfd09bfcfc6::t_33cfd82546f9d6 1-17
+08-drum-machine/backend/src/error.rs
+  s_840bfd09bfcfc6::t_ed565fa39da641 1-28
+08-drum-machine/frontend/src/audio/instruments.ts
+  s_840bfd09bfcfc6::t_d113e9bc3b0e68 1-78
+08-drum-machine/backend/rust-toolchain.toml
+  s_840bfd09bfcfc6::t_82e90cfcf3a2d9 1-2
+08-drum-machine/scripts/test-all.sh
+  s_840bfd09bfcfc6::t_5226aa3e3a5f5c 1-15
+08-drum-machine/backend/src/instruments/kick.rs
+  s_840bfd09bfcfc6::t_b3e22df7892e4d 1-30
+08-drum-machine/scripts/setup.sh
+  s_840bfd09bfcfc6::t_4bf545c8390b1e 1-13
+08-drum-machine/backend/src/instruments/mod.rs
+  s_840bfd09bfcfc6::t_0f44f8db1cea63 1-16,23-100
+  s_840bfd09bfcfc6::t_e6bdf9bd559290 17-22
+08-drum-machine/backend/src/store.rs
+  s_840bfd09bfcfc6::t_53b7729d67bc5a 1-110
+08-drum-machine/frontend/src/components/Transport.tsx
+  s_840bfd09bfcfc6::t_5e3aa21fbcd646 1-34
+08-drum-machine/backend/src/pattern.rs
+  s_840bfd09bfcfc6::t_e6bdf9bd559290 21-23,63-64,84-86
+  s_840bfd09bfcfc6::t_e8813b91ef4a1a 1-20,24-62,65-83,87-97
+08-drum-machine/backend/src/instruments/clap.rs
+  s_840bfd09bfcfc6::t_20a4cbd601fd42 1-39
+08-drum-machine/backend/src/dsp/analysis.rs
+  s_840bfd09bfcfc6::t_e039a433f8d1e4 1-31
+08-drum-machine/frontend/src/components/PatternBar.tsx
+  s_840bfd09bfcfc6::t_d27e26177e480c 1-37
+08-drum-machine/frontend/tsconfig.json
+  s_840bfd09bfcfc6::t_a318f20f82e9d8 1-18
+08-drum-machine/frontend/src/api.ts
+  s_840bfd09bfcfc6::t_136e81ef687575 1-39
+08-drum-machine/frontend/src/styles.css
+  s_840bfd09bfcfc6::t_0a10499a246597 1-137
+08-drum-machine/frontend/src/pattern.ts
+  s_840bfd09bfcfc6::t_0c91d20a064724 1-27
+08-drum-machine/frontend/index.html
+  s_840bfd09bfcfc6::t_170fd88dfb2f46 1-12
+08-drum-machine/backend/Cargo.lock
+  s_840bfd09bfcfc6::t_7ddc05dffe30c4 1-488
+08-drum-machine/frontend/bun.lock
+  s_840bfd09bfcfc6::t_f71f15b33c1d2f 1-270
+08-drum-machine/scripts/common.sh
+  s_840bfd09bfcfc6::t_39a0e24cdcfe2f 1-122
+08-drum-machine/scripts/ports.env
+  s_840bfd09bfcfc6::t_c8ba5b6207842d 1-2
+08-drum-machine/scripts/status.sh
+  s_840bfd09bfcfc6::t_6b6a45780038c0 1-14
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "e3248f46427a7bc058d4f6563b9382e5b36e8ebb",
+  "prompts": {},
+  "sessions": {
+    "s_840bfd09bfcfc6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "55beed20-3794-44e0-bd93-90c5b1c0f858",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "diegopacheco <diego.pacheco.it@gmail.com>"
+    }
+  }
+}

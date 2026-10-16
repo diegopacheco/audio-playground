@@ -1,0 +1,157 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f8fafc;
+  color: #0f172a;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 24px 16px 48px;
+}
+
+header h1 {
+  margin: 0 0 4px;
+  font-size: 28px;
+}
+
+header p {
+  margin: 0 0 20px;
+  color: #475569;
+}
+
+.drop {
+  border: 2px dashed #a5b4fc;
+  background: #eef2ff;
+  border-radius: 12px;
+  padding: 32px;
+  text-align: center;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  color: #3730a3;
+}
+
+.drop.over {
+  background: #e0e7ff;
+  border-color: #4f46e5;
+}
+
+.drop span {
+  color: #6366f1;
+  font-size: 14px;
+}
+
+.file {
+  color: #475569;
+  font-size: 14px;
+}
+
+.error {
+  background: #fef2f2;
+  color: #b91c1c;
+  border: 1px solid #fecaca;
+  border-radius: 8px;
+  padding: 10px 14px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+@media (max-width: 720px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 16px;
+  margin-top: 16px;
+  overflow-x: auto;
+}
+
+.grid .card {
+  margin-top: 0;
+}
+
+.card h2 {
+  margin: 0 0 10px;
+  font-size: 16px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 5px 8px;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+tbody th {
+  color: #64748b;
+  font-weight: 500;
+  width: 40%;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 10px;
+}
+
+.row h2 {
+  margin: 0;
+  flex: 1;
+}
+
+.row label {
+  font-size: 13px;
+  color: #475569;
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.row input {
+  width: 70px;
+  padding: 4px 6px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+}
+
+.ascii {
+  margin: 0;
+  font-family: ui-monospace, "SF Mono", Menlo, monospace;
+  font-size: 11px;
+  line-height: 1.1;
+  background: #f8fafc;
+  color: #334155;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.envelope {
+  width: 100%;
+  height: auto;
+  background: #f8fafc;
+  border-radius: 8px;
+}

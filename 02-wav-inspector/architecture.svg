@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="1000" height="560">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&amp;display=swap');
+      text { font-family: 'Caveat', 'Comic Sans MS', cursive; fill: #1e293b; }
+      .t { font-size: 24px; font-weight: 700; }
+      .s { font-size: 18px; }
+      .l { font-size: 17px; fill: #475569; }
+    </style>
+    <filter id="wobble">
+      <feTurbulence type="fractalNoise" baseFrequency="0.02" numOctaves="2" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="3"/>
+    </filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#334155"/>
+    </marker>
+  </defs>
+  <rect width="1000" height="560" fill="#ffffff"/>
+  <g filter="url(#wobble)" stroke="#334155" stroke-width="2">
+    <rect x="30" y="40" width="200" height="110" rx="14" fill="#dbeafe"/>
+    <rect x="30" y="250" width="200" height="110" rx="14" fill="#fce7f3"/>
+    <rect x="320" y="40" width="250" height="110" rx="14" fill="#ede9fe"/>
+    <rect x="320" y="250" width="250" height="110" rx="14" fill="#dcfce7"/>
+    <rect x="660" y="40" width="300" height="110" rx="14" fill="#fef9c3"/>
+    <rect x="660" y="250" width="300" height="110" rx="14" fill="#ffedd5"/>
+    <rect x="320" y="440" width="250" height="90" rx="14" fill="#e0f2fe"/>
+    <rect x="660" y="440" width="300" height="90" rx="14" fill="#f1f5f9"/>
+  </g>
+  <text x="130" y="85" text-anchor="middle" class="t">React UI :5102</text>
+  <text x="130" y="112" text-anchor="middle" class="s">drop zone, tables,</text>
+  <text x="130" y="134" text-anchor="middle" class="s">ascii block, canvas</text>
+  <text x="130" y="295" text-anchor="middle" class="t">CLI</text>
+  <text x="130" y="322" text-anchor="middle" class="s">wav-inspector file.wav</text>
+  <text x="130" y="344" text-anchor="middle" class="s">--width --height</text>
+  <text x="445" y="85" text-anchor="middle" class="t">axum api.rs :8102</text>
+  <text x="445" y="112" text-anchor="middle" class="s">POST /api/inspect</text>
+  <text x="445" y="134" text-anchor="middle" class="s">raw WAV body in, JSON out</text>
+  <text x="445" y="295" text-anchor="middle" class="t">inspect.rs</text>
+  <text x="445" y="322" text-anchor="middle" class="s">builds the Report</text>
+  <text x="445" y="344" text-anchor="middle" class="s">header, chunks, levels</text>
+  <text x="810" y="85" text-anchor="middle" class="t">riff.rs</text>
+  <text x="810" y="112" text-anchor="middle" class="s">walk chunks, skip LIST/unknown</text>
+  <text x="810" y="134" text-anchor="middle" class="s">parse fmt, locate data</text>
+  <text x="810" y="295" text-anchor="middle" class="t">decode.rs  SampleDecoder</text>
+  <text x="810" y="322" text-anchor="middle" class="s">Pcm8 Pcm16 Pcm24 Pcm32</text>
+  <text x="810" y="344" text-anchor="middle" class="s">Float32  to f32 samples</text>
+  <text x="445" y="480" text-anchor="middle" class="t">analysis.rs</text>
+  <text x="445" y="507" text-anchor="middle" class="s">mono mix, peak, rms, envelope</text>
+  <text x="810" y="480" text-anchor="middle" class="t">render.rs  Renderer</text>
+  <text x="810" y="507" text-anchor="middle" class="s">AsciiRenderer width x height</text>
+  <g stroke="#334155" stroke-width="2" fill="none" marker-end="url(#arrow)">
+    <path d="M232,95 L316,95"/>
+    <path d="M232,305 L316,305"/>
+    <path d="M445,152 L445,246"/>
+    <path d="M572,280 C610,250 620,140 656,110"/>
+    <path d="M810,152 L810,246"/>
+    <path d="M656,320 L574,320"/>
+    <path d="M445,362 L445,436"/>
+    <path d="M572,350 C620,380 640,440 656,470"/>
+  </g>
+  <text x="274" y="85" text-anchor="middle" class="l">fetch</text>
+  <text x="274" y="295" text-anchor="middle" class="l">read file</text>
+  <text x="540" y="205" class="l">bytes</text>
+  <text x="820" y="205" class="l">Format + data</text>
+  <text x="590" y="340" class="l">Vec f32</text>
+  <text x="455" y="405" class="l">samples</text>
+  <text x="640" y="415" class="l">mono</text>
+</svg>

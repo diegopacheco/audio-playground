@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 720" width="1000" height="720">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&amp;display=swap');
+      text { font-family: 'Caveat', 'Comic Sans MS', cursive; fill: #2b2b2b; }
+      .t { font-size: 26px; font-weight: 700; }
+      .s { font-size: 19px; }
+      .box { stroke: #2b2b2b; stroke-width: 2.2; filter: url(#wobble); }
+      .arrow { stroke: #2b2b2b; stroke-width: 2.2; fill: none; filter: url(#wobble); marker-end: url(#head); }
+      .dash { stroke-dasharray: 7 6; }
+    </style>
+    <filter id="wobble" filterUnits="userSpaceOnUse" x="0" y="0" width="1000" height="720">
+      <feTurbulence type="fractalNoise" baseFrequency="0.02" numOctaves="2" seed="7" />
+      <feDisplacementMap in="SourceGraphic" scale="3.5" />
+    </filter>
+    <marker id="head" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto">
+      <path d="M0,0 L10,5 L0,10" fill="none" stroke="#2b2b2b" stroke-width="1.6" />
+    </marker>
+  </defs>
+  <rect width="1000" height="720" fill="#fffdf8" />
+
+  <text x="500" y="40" class="t" text-anchor="middle">Low Latency Audio in Rust</text>
+
+  <rect x="30" y="70" width="260" height="180" rx="14" fill="#dbe9ff" class="box" />
+  <text x="160" y="102" class="t" text-anchor="middle">Browser (React)</text>
+  <text x="160" y="135" class="s" text-anchor="middle">device + buffer pickers</text>
+  <text x="160" y="162" class="s" text-anchor="middle">start / stop / measure</text>
+  <text x="160" y="189" class="s" text-anchor="middle">latency history chart</text>
+  <text x="160" y="216" class="s" text-anchor="middle">ring gauge + xruns</text>
+
+  <rect x="370" y="70" width="260" height="180" rx="14" fill="#e3f6df" class="box" />
+  <text x="500" y="102" class="t" text-anchor="middle">Axum API</text>
+  <text x="500" y="135" class="s" text-anchor="middle">/api/devices  /api/start</text>
+  <text x="500" y="162" class="s" text-anchor="middle">/api/stop  /api/measure</text>
+  <text x="500" y="189" class="s" text-anchor="middle">/api/stats</text>
+  <text x="500" y="216" class="s" text-anchor="middle">WS /api/stats/stream</text>
+
+  <rect x="710" y="70" width="260" height="180" rx="14" fill="#fff1c9" class="box" />
+  <text x="840" y="102" class="t" text-anchor="middle">Engine</text>
+  <text x="840" y="135" class="s" text-anchor="middle">pick backend, fall back to fake</text>
+  <text x="840" y="162" class="s" text-anchor="middle">LatencyProbe: chirp / click</text>
+  <text x="840" y="189" class="s" text-anchor="middle">arm measure, detect offset</text>
+  <text x="840" y="216" class="s" text-anchor="middle">stats snapshot</text>
+
+  <path d="M292,140 L366,140" class="arrow" />
+  <path d="M366,190 L292,190" class="arrow" />
+  <path d="M632,160 L706,160" class="arrow" />
+
+  <path d="M840,252 L840,350" class="arrow dash" />
+  <text x="850" y="300" class="s">builds Sides</text>
+
+  <rect x="30" y="355" width="260" height="170" rx="14" fill="#fde2e4" class="box" />
+  <text x="160" y="387" class="t" text-anchor="middle">Input callback</text>
+  <text x="160" y="420" class="s" text-anchor="middle">downmix to mono</text>
+  <text x="160" y="447" class="s" text-anchor="middle">push to ring, count overruns</text>
+  <text x="160" y="474" class="s" text-anchor="middle">record capture (atomics)</text>
+  <text x="160" y="501" class="s" text-anchor="middle">time the callback</text>
+
+  <rect x="370" y="355" width="260" height="170" rx="14" fill="#e8defc" class="box" />
+  <text x="500" y="387" class="t" text-anchor="middle">SPSC ring buffer</text>
+  <text x="500" y="420" class="s" text-anchor="middle">power-of-two slots, mask</text>
+  <text x="500" y="447" class="s" text-anchor="middle">atomic head / tail</text>
+  <text x="500" y="474" class="s" text-anchor="middle">no locks, no allocations</text>
+  <text x="500" y="501" class="s" text-anchor="middle">fill level to stats</text>
+
+  <rect x="710" y="355" width="260" height="170" rx="14" fill="#d9f2f2" class="box" />
+  <text x="840" y="387" class="t" text-anchor="middle">Output callback</text>
+  <text x="840" y="420" class="s" text-anchor="middle">pop ring, count underruns</text>
+  <text x="840" y="447" class="s" text-anchor="middle">passthrough or silence</text>
+  <text x="840" y="474" class="s" text-anchor="middle">emit probe when armed</text>
+  <text x="840" y="501" class="s" text-anchor="middle">fan out to channels</text>
+
+  <path d="M292,440 L366,440" class="arrow" />
+  <path d="M632,440 L706,440" class="arrow" />
+
+  <rect x="30" y="600" width="940" height="90" rx="14" fill="#eeeeee" class="box" />
+  <text x="500" y="632" class="t" text-anchor="middle">trait AudioBackend</text>
+  <text x="500" y="665" class="s" text-anchor="middle">CpalBackend: mic and speakers  |  FakeBackend: output, 480-sample delay line, back into input</text>
+
+  <path d="M160,596 L160,529" class="arrow" />
+  <text x="172" y="568" class="s">samples in</text>
+  <path d="M840,529 L840,596" class="arrow" />
+  <text x="852" y="568" class="s">samples out</text>
+</svg>

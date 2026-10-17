@@ -1,0 +1,68 @@
+low-latency-rust/README.md
+  s_840bfd09bfcfc6::t_e1d3bdbb670616 1
+  s_840bfd09bfcfc6::t_75941bbf51f44d 2-117
+metronome/architecture.svg
+  s_840bfd09bfcfc6::t_75941bbf51f44d 1-78
+tone-generator/README.md
+  s_840bfd09bfcfc6::t_e1d3bdbb670616 1
+  s_840bfd09bfcfc6::t_75941bbf51f44d 2-158
+browser-synth/README.md
+  s_840bfd09bfcfc6::t_75941bbf51f44d 2-128
+  s_840bfd09bfcfc6::t_e1d3bdbb670616 1
+metronome/README.md
+  s_840bfd09bfcfc6::t_e1d3bdbb670616 1
+  s_840bfd09bfcfc6::t_75941bbf51f44d 2-132
+README.md
+  s_840bfd09bfcfc6::t_f6b35e6c74e8f4 10-13,20,26-27,33-36,43-45,52-53,59,67-83,88
+generative-music/README.md
+  s_840bfd09bfcfc6::t_75941bbf51f44d 1-151
+fft-spectrum-analyzer/README.md
+  s_840bfd09bfcfc6::t_75941bbf51f44d 2-185
+  s_840bfd09bfcfc6::t_e1d3bdbb670616 1
+effects-chain/README.md
+  s_840bfd09bfcfc6::t_75941bbf51f44d 1-162
+bpm-detection/README.md
+  s_840bfd09bfcfc6::t_75941bbf51f44d 1-130
+audio-steganography/README.md
+  s_840bfd09bfcfc6::t_e1d3bdbb670616 1
+  s_840bfd09bfcfc6::t_75941bbf51f44d 2-143
+audio-fingerprinting/README.md
+  s_840bfd09bfcfc6::t_75941bbf51f44d 1-139
+drum-machine/README.md
+  s_840bfd09bfcfc6::t_75941bbf51f44d 1-120
+spatial-audio/README.md
+  s_840bfd09bfcfc6::t_75941bbf51f44d 1-165
+voice-changer/README.md
+  s_840bfd09bfcfc6::t_75941bbf51f44d 2-166
+  s_840bfd09bfcfc6::t_e1d3bdbb670616 1
+wav-inspector/README.md
+  s_840bfd09bfcfc6::t_75941bbf51f44d 2-172
+  s_840bfd09bfcfc6::t_e1d3bdbb670616 1
+bpm-detection/architecture.svg
+  s_840bfd09bfcfc6::t_75941bbf51f44d 1-85
+pitch-tuner/README.md
+  s_840bfd09bfcfc6::t_e1d3bdbb670616 1
+  s_840bfd09bfcfc6::t_75941bbf51f44d 2-156
+speech-to-text-summary/README.md
+  s_840bfd09bfcfc6::t_e1d3bdbb670616 1
+  s_840bfd09bfcfc6::t_75941bbf51f44d 2-130
+data-over-sound/README.md
+  s_840bfd09bfcfc6::t_e1d3bdbb670616 1
+  s_840bfd09bfcfc6::t_75941bbf51f44d 2-134
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "eabeaa59c4969dbe13f978f3433376041a2bcd9b",
+  "prompts": {},
+  "sessions": {
+    "s_840bfd09bfcfc6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "55beed20-3794-44e0-bd93-90c5b1c0f858",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "diegopacheco <diego.pacheco.it@gmail.com>"
+    }
+  }
+}

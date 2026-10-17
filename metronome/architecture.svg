@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 600" width="1120" height="600" font-family="Caveat, 'Comic Sans MS', cursive">
+  <defs>
+    <style>@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&amp;display=swap');</style>
+    <filter id="wobble">
+      <feTurbulence type="fractalNoise" baseFrequency="0.02" numOctaves="3" seed="7" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="3"/>
+    </filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#333"/>
+    </marker>
+  </defs>
+  <rect width="1120" height="600" fill="#fdfcf8"/>
+  <text x="560" y="40" text-anchor="middle" font-size="34" font-weight="700" fill="#222">metronome architecture</text>
+
+  <g filter="url(#wobble)" stroke="#333" stroke-width="2">
+    <rect x="30" y="70" width="400" height="500" rx="16" fill="#eef5ff"/>
+    <rect x="50" y="120" width="360" height="56" rx="10" fill="#fff4d6"/>
+    <rect x="50" y="196" width="170" height="80" rx="10" fill="#ffe1d2"/>
+    <rect x="240" y="196" width="170" height="80" rx="10" fill="#d9e8ff"/>
+    <rect x="50" y="296" width="360" height="56" rx="10" fill="#e6f6ea"/>
+    <rect x="50" y="372" width="360" height="56" rx="10" fill="#f3e6fb"/>
+    <rect x="50" y="448" width="360" height="56" rx="10" fill="#f3e6fb"/>
+
+    <rect x="470" y="250" width="160" height="100" rx="14" fill="#fff4d6"/>
+
+    <rect x="670" y="70" width="420" height="500" rx="16" fill="#f1f8ec"/>
+    <rect x="690" y="120" width="380" height="56" rx="10" fill="#fff4d6"/>
+    <rect x="690" y="206" width="180" height="90" rx="10" fill="#ffe1d2"/>
+    <rect x="890" y="206" width="180" height="90" rx="10" fill="#d9e8ff"/>
+    <rect x="690" y="326" width="180" height="70" rx="10" fill="#e6f6ea"/>
+    <rect x="890" y="326" width="180" height="70" rx="10" fill="#f3e6fb"/>
+    <rect x="690" y="426" width="380" height="110" rx="10" fill="#ffffff"/>
+  </g>
+
+  <g fill="#222" text-anchor="middle">
+    <text x="230" y="105" font-size="26" font-weight="700">Browser (React + Vite)</text>
+    <text x="230" y="155" font-size="22">Controls: BPM, beats per bar, tap tempo</text>
+    <text x="135" y="228" font-size="22" font-weight="700">setInterval</text>
+    <text x="135" y="256" font-size="18">click when timer fires</text>
+    <text x="325" y="228" font-size="22" font-weight="700">Web Audio lookahead</text>
+    <text x="325" y="256" font-size="16">25 ms timer, 100 ms ahead</text>
+    <text x="230" y="331" font-size="22">Jitter chart + stats (per beat error)</text>
+    <text x="230" y="407" font-size="22">Click track player + download</text>
+    <text x="230" y="483" font-size="22">Drift panel (naive vs absolute)</text>
+
+    <text x="550" y="290" font-size="24" font-weight="700">Vite proxy</text>
+    <text x="550" y="320" font-size="20">/api -&gt; backend</text>
+
+    <text x="880" y="105" font-size="26" font-weight="700">Rust backend (axum + tokio)</text>
+    <text x="880" y="155" font-size="22">api.rs: POST /api/click-track, GET /api/drift</text>
+    <text x="780" y="240" font-size="22" font-weight="700">click.rs</text>
+    <text x="780" y="268" font-size="18">trait Click, SineClick</text>
+    <text x="980" y="240" font-size="22" font-weight="700">drift.rs</text>
+    <text x="980" y="268" font-size="18">runs both, builds report</text>
+    <text x="780" y="358" font-size="22" font-weight="700">wav.rs</text>
+    <text x="780" y="383" font-size="18">16-bit PCM writer</text>
+    <text x="980" y="358" font-size="22" font-weight="700">scheduler.rs</text>
+    <text x="980" y="383" font-size="18">trait Scheduler</text>
+    <text x="880" y="460" font-size="22" font-weight="700">Schedulers measured with real tokio sleeps</text>
+    <text x="880" y="492" font-size="17">NaiveSleep: sleep(interval) after each beat, error adds up</text>
+    <text x="880" y="520" font-size="17">AbsoluteDeadline: sleep_until(start + n x interval)</text>
+  </g>
+
+  <g stroke="#333" stroke-width="2.5" fill="none" marker-end="url(#arrow)">
+    <path d="M410 400 C 440 400, 445 320, 468 310"/>
+    <path d="M410 476 C 445 476, 450 340, 470 330"/>
+    <path d="M630 300 C 650 300, 660 150, 688 148"/>
+    <path d="M780 176 L 780 204"/>
+    <path d="M980 176 L 980 204"/>
+    <path d="M780 296 L 780 324"/>
+    <path d="M980 296 L 980 324"/>
+    <path d="M980 396 L 980 424"/>
+    <path d="M135 176 L 135 194"/>
+    <path d="M325 176 L 325 194"/>
+    <path d="M135 276 L 135 294"/>
+    <path d="M325 276 L 325 294"/>
+  </g>
+</svg>
